@@ -1,11 +1,10 @@
 body{
-<<<<<<< Updated upstream
     background-color: #a3a2a2;
-=======
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
     box-sizing: border-box;
 }
+
 /* Navbar Styling */
 .navbar-section {
     display: flex;
@@ -23,6 +22,57 @@ body{
 .nav-middle-section li {
     --bs-nav-link-color: #fff
 }
+/* Permanantly styles Home link as green highlight - needs to change */
+/* .nav-middle-section ul:first-child {
+    --bs-navbar-active-color: #01FF85;
+    --bs-navbar-active-text-shadow: 0px 0px 24.4944px #049A52, 0px 0px 13.9968px #049A52, 0px 0px 8.1648px #049A52, 0px 0px 4.0824px #049A52, 0px 0px 1.1664px #049A52, 0px 0px 0.5832px #049A52;
+} */
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.nav-middle-section a:hover {
+    color: #01FF85;
+}
+/* Adds green highlight to selected nav-link */
+.nav-middle-section a:focus {
+    color: #FFFFFF;
+        --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+/* When the link is clicked */
+.nav-middle-section a:active {
+    color: #FFFFFF;
+      --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+/* Visited color set to #FFF */
+/* .nav-middle-section a:visited {
+    color: #fff;
+    
+} */
+.nav-btn {
+    width: 178px;
+    height: 60px;
+    background: #01FF85;
+    border: 1px solid #01FF85;
+    border-radius: 0px;
+    align-items: flex-start;
+    padding: 20px 30px;
+    gap: 10px;
+    /* font-family: 'Microgramma D Extended'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #100D26;
+    text-transform: uppercase;
+}
+
+/* End of Navbar styling */
 
 /* height needs to change responsive once we implement SASS into the project. */
 .buttonTF{
@@ -94,5 +144,4 @@ include padding and margin */
 }
 .all-shadow{
     filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
->>>>>>> Stashed changes
 }

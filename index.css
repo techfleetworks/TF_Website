@@ -1,3 +1,98 @@
 body{
+<<<<<<< Updated upstream
     background-color: #a3a2a2;
+=======
+    background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+/* Navbar Styling */
+.navbar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-middle-section {
+    background-color: #100D26;
+    padding: 5px 20px 5px 0px;
+    width: 1546px;
+    height: 94px;
+    gap: 30px;
+    border: 1px solid rgba(1, 255, 133, 0.3);
+}
+.nav-middle-section li {
+    --bs-nav-link-color: #fff
+}
+
+/* height needs to change responsive once we implement SASS into the project. */
+.buttonTF{
+  border: none;
+    width: 100%;
+    height: 100px;
+   box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
+   box-shadow: 0 10px 0 0 #80823A;
+
+}
+
+.bg-lightyellow{
+    background-color:#F0F0DF;
+}
+
+#bg-tal9000{
+   background-color: #C9BCBC;
+   padding: 20px;
+   gap: 50px;
+}
+
+
+/* medi query for each breakpoint so that the 
+width and height of the box changes while there always centered. the box will 
+include padding and margin */
+#bg-tal9000 .square{
+    width: 130px;
+    height: 120px;
+
+     background-color:  #01FF85;
+    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B,0px 0px 22.2768px #329C2B,0px 0px 11.1384px #329C2B,0px 0px 3.1824px #329C2B,0px 0px 1.5912px #329C2B; border: 1px solid #01FF85;
+
+}
+
+/* All footer styling */
+/* All footer styling */
+
+.footer-item01{
+    list-style-type: none;
+    font-size: 19px;
+}
+.footer-item01 li:first-child a{
+    color: #01FF85;
+    font-weight: bold;
+}
+.footer-item01 .info a{
+    color: #EEEEEE;
+    font-weight: bold;
+}
+.footer-item02{
+    list-style-type: none;
+    font-size: 19px;
+}
+.footer-item02 li a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+/* All four buttons on footer */
+.btn-footer{
+    background-color: #F0F0DF;
+    height: 6em;
+    width: 27em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 8px 0 0 #838343;
+    filter: drop-shadow(0px 0px 16px #86767C) drop-shadow(0px 0px 16px #86767C);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.all-shadow{
+    filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
+>>>>>>> Stashed changes
 }

@@ -13,14 +13,14 @@ body{
 }
 .nav-middle-section {
     background-color: #100D26;
-    padding: 5px 20px 5px 0px;
+    padding: 5px 20px 5px 30px;
     width: 1546px;
     height: 94px;
     gap: 30px;
     border: 1px solid rgba(1, 255, 133, 0.3);
 }
 .nav-middle-section li {
-    --bs-nav-link-color: #fff
+    --bs-nav-link-color: #fff;
 }
 /* Permanantly styles Home link as green highlight - needs to change */
 /* .nav-middle-section ul:first-child {
@@ -36,7 +36,7 @@ body{
     color: #01FF85;
 }
 /* Adds green highlight to selected nav-link */
-.nav-middle-section a:focus {
+.nav-middle-section a:focus, .highlight-txt {
     color: #FFFFFF;
         --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
@@ -73,6 +73,27 @@ body{
 }
 
 /* End of Navbar styling */
+
+/* Landing Styling */
+.index-hero-title {
+    height: 70px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    /* identical to box height, or 109% */
+    letter-spacing: 0.03em;
+}
+.index-hero-subtitle {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* height needs to change responsive once we implement SASS into the project. */
 .buttonTF{

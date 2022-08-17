@@ -38,6 +38,12 @@ include padding and margin */
 
 }
 
+.img-headshot{
+    border-radius: 50%;
+    width: 200px;
+    border: 2px solid #0F7573;
+}
+
 /* All footer styling */
 /* All footer styling */
 

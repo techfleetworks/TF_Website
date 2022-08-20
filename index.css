@@ -31,6 +31,19 @@ body{
      flex-grow: 1;
 }
 
+.testimonial-card{
+    min-width: 300px;
+    max-width: 375px;
+}
+
+.testimonial-card img{
+    max-width: 300px;
+    max-height: 300px;
+}
+#livemissions-section{
+    background-color: #C9BCBC !important;
+}
+
 @media only screen and (max-width: 600px) {
    
 .buttonTF2-group{

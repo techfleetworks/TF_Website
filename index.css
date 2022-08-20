@@ -173,10 +173,10 @@ justify-content: center !important;
 
 }
 
-#livemission-p{
+.center-p-w-700{
     max-width: 700px;
     align-self: center;
-    font-weight: 400;
+    
 }
 
 #live-mission-text{

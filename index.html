@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="index.css" rel="stylesheet" >
+
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light mb-5">
@@ -64,7 +70,7 @@
     </nav>
 
     <div id="index-hero-section" class="container d-flex flex-column  align-items-center mb-5">
-        <h1>Tech Fleet Community DAO</h1>
+        <h1 class="TFont-h1">Tech Fleet Community DAO</h1>
         <span>Powered by Kadena</span>
         <h5>Real tech experience for anyone, anywhere</h5>
         <p>We’re on a mission to provide equal and equitable access to Tech careers. We’re a community agency serving Web2 and Web3, 
@@ -85,7 +91,7 @@
     <div class="container d-flex flex-column align-items-center mb-5">
 
 <!-- new grads and career transitioners section -->
-      <div>
+      <div class="container text-center">
         <h2>New grads and career transitioners: <br> feeling lost in space? </h2>
         <p class="mb-5">They say you can’t get a job without experience, and you can’t get <br> experience without a job.</p>
         
@@ -117,7 +123,7 @@
 
 
 
-<div>
+<div class="container text-center">
           <h2>Choose your path to the Real World</h2>
           <p class="mb-5">Learn on the job and build experience while working with real clients. Learn the ways
              of UX and Product and Development from industry vets. Join a global community of aspiring Techies 
@@ -130,7 +136,7 @@
 
 
 <!-- helping people learn by doing section -->
-  <div>
+  <div class="container text-center">
           <h2>Helping people learn by doing since 2020</h2>
           <p class="mb-5">Only jobs teach you some of the hard and soft skills you need to succeed in UX, Product, or 
             Development. We teach them in Tech Fleet.
@@ -179,12 +185,14 @@
 
 
   <!-- let the fleet work for you section -->
-<div>
+<div class="container text-center">
+  <div class=" ">
 <h2>Let the Fleet work for you</h2>
 <p class="mb-5">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
     business goals. We offer pro bono services for nonprofits. We’ll work for tokens or equity. By being our client you’re 
     helping aid in our mission to provide equal access to Tech.
 </p>
+</div>
 
 <div class="row">
     <div class="col col-md-6">
@@ -202,19 +210,23 @@
             <li>Curious whether we offer a service you don’t see? Let’s talk! </li>
         </ul>
     </div>
-    <button type="button" class="btn btn-success">Learn about us</button>
-</div>
+   </div>
+   <button type="button" class="btn btn-success">Learn about us</button>
 
 </div>
 
 
 
 <!-- caling all recruits/ projects section -->
-<div>
+<div class="container">
+
+  <div class="text-center">
 <h2>Calling all recruits</h2>
 <p class="mb-5">Apprenticeship and leadership roles are open for limited time each time we open them up. Check out our current 
     project openings and apply to be a part of the Fleet. No experience required.
 </p>
+</div>
+
 <img src="/media/Group369.jpg" alt=""  class="img-fluid ">
 <p>There are no projects to apply to right now. You can shadow the live projects listed below.</p>
 
@@ -229,19 +241,19 @@
       <img src="./media/nails.svg" alt="">
     </div>
   </div>
-<div  class="container">
+<div  class="container d-flex flex-column">
 
 
-<h2>See Tech Fleet in action</h2>
-<p class="mb-5">Wondering what it’s like in the Fleet? Anyone can join Tech Fleet meetings to shadow and observe teams. Check 
+<h2 class="TFont-h2 text-black">See Tech Fleet in action</h2>
+<p id="livemission-p" class="mb-5 TFont-p-24px text-black">Wondering what it’s like in the Fleet? Anyone can join Tech Fleet meetings to shadow and observe teams. Check 
     out our live apprenticeships and watch the magic happen. 
 
-    <h3>live missions</h3>
+    <h3   id="live-mission-text" class="text-center mb-5 mt-3">LIVE MISSIONS</h3>
 
       <div class="row">
 
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>earth hero mobile app features</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">EARTH HERO MOBILE APP FEATURES</p>
               <img src="/media/Frame940.jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
@@ -251,8 +263,8 @@
               </div>
           </div>
 
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>RUMINATE “FEEDBACK” PLATFORM APP</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">RUMINATE “FEEDBACK” PLATFORM APP</p>
               <img src="/media/Frame 940 (1).jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
@@ -264,8 +276,8 @@
 
 
 
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>THE SERIOUS TYPE SOCIAL MEDIA APP</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">THE SERIOUS TYPE SOCIAL MEDIA APP</p>
               <img src="/media/Frame 940 (2).jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
@@ -275,8 +287,8 @@
               </div>
           </div>
 
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>TECH FLEET’S “KADET WALLET”</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">TECH FLEET’S “KADET WALLET”</p>
               <img src="/media/Frame 940 (3).jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2s">MISSION DETAILS</button>
@@ -287,8 +299,8 @@
           </div>
 
           <h4>UP NEXT</h4>
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>INCLUSIVE</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">INCLUSIVE</p>
               <img src="/media/Frame 912.jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
@@ -296,8 +308,8 @@
               </div>
           </div>
 
-          <div class="col-12 col-lg-6 d-flex flex-column align-items-center">
-              <p>INCLUSIVE</p>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">INCLUSIVE</p>
               <img src="/media/Frame 912 (1).jpg" alt=""  class="img-fluid ">
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
@@ -633,7 +645,6 @@
       </div>
     </div>
   </div>
-
 
 
 </div><!-- container ends-->

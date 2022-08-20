@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
-    ;
+    box-sizing: border-box;
 }
 
 
@@ -14,6 +14,39 @@ body{
    box-shadow: 0 10px 0 0 #80823A;
 
 }
+
+.buttonTF2{
+    height: 94px;
+    box-shadow: 0px 0px 66.8304px #329C2B,
+    0px 0px 38.1888px #329C2B,
+     0px 0px 22.2768px #329C2B,
+     0px 0px 11.1384px #329C2B,
+     0px 0px 3.1824px #329C2B,
+     0px 0px 1.5912px #329C2B;
+     background-color:  #01FF85;
+     border: 1px solid #01FF85;
+     padding: 30px 40px;
+     font-size: 20px;
+     min-width: 45%;
+     flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+   
+.buttonTF2-group{
+display: flex;
+flex-direction: column !important;
+justify-content: center !important;
+
+
+}
+.buttonTF2{
+    width: 100% !important;
+}
+  }
+
+
+
 
 .bg-lightyellow{
     background-color:#F0F0DF;

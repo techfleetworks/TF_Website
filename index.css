@@ -94,6 +94,7 @@ color: #FFFFFF;
 
 .TFont-p-24px{
     font-family: 'Futura', sans-serif;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.875rem;
     color: #FFFFFF;
@@ -213,23 +214,26 @@ color: #FFFFFF;
     text-transform: uppercase;
     padding: 30px 40px;
 }
-
-.hero-section-below {
-    border: #01FF85 5px solid;
+.icons-container {
+    margin-top: 2rem;
 }
-/* .icons-container {
-    text-align: center;
-} */
 .icons-list {
     list-style-type: none;
     display: inline-flex;
-    border: #01FF85 2px solid;
 }
 .icons-list li {
     margin: 2rem;
 }
-
 /* End of Hero Banner Styling */
+
+/* New Grads & Career Transitioners Section */
+.new-grads-txt {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 2rem;
+}
+/* End of New Grads */
 
 .testimonial-card{
     min-width: 300px;

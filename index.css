@@ -12,97 +12,7 @@ body{
     box-sizing: border-box;
 }
 
-/* Navbar Styling */
-.navbar-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.nav-middle-section {
-    background-color: #100D26;
-    padding: 5px 20px 5px 30px;
-    width: 1546px;
-    height: 94px;
-    gap: 30px;
-    border: 1px solid rgba(1, 255, 133, 0.3);
-    justify-content: inherit;
-}
-.nav-middle-section li {
-    --bs-nav-link-color: #fff;
-    margin: .5rem;
-}
-/* Permanantly styles Home link as green highlight - needs to change */
-/* .nav-middle-section ul:first-child {
-    --bs-navbar-active-color: #01FF85;
-    --bs-navbar-active-text-shadow: 0px 0px 24.4944px #049A52, 0px 0px 13.9968px #049A52, 0px 0px 8.1648px #049A52, 0px 0px 4.0824px #049A52, 0px 0px 1.1664px #049A52, 0px 0px 0.5832px #049A52;
-} */
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    --bs-navbar-active-color: #01FF85;
-    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
-    text-decoration: underline;
-}
-.nav-middle-section a:hover {
-    color: #01FF85;
-}
-/* Adds green highlight to selected nav-link */
-.nav-middle-section a:focus, .highlight-txt {
-    color: #FFFFFF;
-        --bs-navbar-active-color: #01FF85;
-    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
-    text-decoration: underline;
-}
-/* When the link is clicked */
-.nav-middle-section a:active {
-    color: #FFFFFF;
-      --bs-navbar-active-color: #01FF85;
-    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
-    text-decoration: underline;
-}
-/* Visited color set to #FFF */
-/* .nav-middle-section a:visited {
-    color: #fff;
-    
-} */
-.nav-btn {
-    width: 178px;
-    height: 60px;
-    background: #01FF85;
-    border: 1px solid #01FF85;
-    border-radius: 0px;
-    align-items: flex-start;
-    padding: 20px 30px;
-    gap: 10px;
-    /* font-family: 'Microgramma D Extended'; */
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #100D26;
-    text-transform: uppercase;
-}
 
-/* End of Navbar styling */
-
-/* Landing Styling */
-.index-hero-title {
-    height: 70px;
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 70px;
-    /* identical to box height, or 109% */
-    letter-spacing: 0.03em;
-}
-.index-hero-subtitle {
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 @font-face {
     font-family: 'Microgramma';
@@ -190,17 +100,13 @@ color: #FFFFFF;
 }
 
 
-
-
-
-main
 /* height needs to change responsive once we implement SASS into the project. */
 .buttonTF{
   border: none;
     width: 100%;
     height: 100px;
    box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
-   box-shadow: 0 10px 0 0 #80823A;
+   border-bottom: 10px solid #80823A;
    font-family: 'Microgramma';
    transition:all .3s ease-out; 
 
@@ -215,17 +121,115 @@ main
      0px 0px 11.1384px #329C2B,
      0px 0px 3.1824px #329C2B,
      0px 0px 1.5912px #329C2B;
-     background-color:  #01FF85;
-     border: 1px solid #01FF85;
-     padding: 30px 40px;
-     font-size: 20px;
-     min-width: 45%;
-     flex-grow: 1;
-     transition:all .3s ease-out; 
+    background-color:  #01FF85;
+    border: 1px solid #01FF85;
+    padding: 30px 40px;
+    font-size: 20px;
+    min-width: 45%;
+    flex-grow: 1;
+    transition:all .3s ease-out; 
 }
 
 
+/* NAVBAR STYLING */
+.navbar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-middle-section {
+    background-color: #100D26;
+    padding: 5px 20px 5px 30px;
+    width: 1546px;
+    height: 94px;
+    gap: 30px;
+    border: 1px solid rgba(1, 255, 133, 0.3);
+    justify-content: inherit;
+}
+.nav-middle-section li {
+    --bs-nav-link-color: #fff;
+    margin: .5rem;
+}
+/* Permanantly styles Home link as green highlight - needs to change */
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.nav-middle-section a:hover {
+    color: #01FF85;
+}
+/* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
+.nav-middle-section a:focus, .highlight-txt {
+    /* color: #FFFFFF; */
+    color: #01FF85;
+        --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.highlight-txt {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Highlights green when the link is clicked */
+.nav-middle-section a:active {
+    color: #FFFFFF;
+      --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+/* Visited color set to #FFF - this can be updated later*/
+/* .nav-middle-section a:visited {
+    color: #fff;
+} */
 
+.nav-btn {
+    min-width: 178px;
+    height: 60px;
+    background: #01FF85;
+    border-bottom: 10px solid #0D6A08;
+    /* gap: 10px; */
+    font-size: 16px;
+    color: #100D26;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    line-height: 10px;
+}
+
+/* End of Navbar styling */
+
+/* Hero banner Styling */
+.hero-section-above {
+    margin-bottom: 3rem;
+}
+.see-our-work {
+    max-width: 329px;
+    height: 90px;
+    margin: 1.5rem 0;
+}
+.hire-us {
+    background-color: #F0F0DF;
+    max-width: 329px;
+    text-transform: uppercase;
+    padding: 30px 40px;
+}
+
+.hero-section-below {
+    border: #01FF85 5px solid;
+}
+/* .icons-container {
+    text-align: center;
+} */
+.icons-list {
+    list-style-type: none;
+    display: inline-flex;
+    border: #01FF85 2px solid;
+}
+.icons-list li {
+    margin: 2rem;
+}
+
+/* End of Hero Banner Styling */
 
 .testimonial-card{
     min-width: 300px;

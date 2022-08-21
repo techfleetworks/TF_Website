@@ -14,10 +14,10 @@
 
   </head>
   <body>
-    <nav class="navbar-section navbar navbar-expand-lg mb-5">
+    <nav class="TFont-navbar navbar-section navbar navbar-expand-lg mb-5">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./media/Tech Fleet Logo_black.jpg" alt="Tech Fleet logo" />
+            <img src="./media/Tech Fleet Logo_black.svg" alt="Tech Fleet logo" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
           <div class="nav-middle-section collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active TFont-navbar-active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">How it Works</a>
@@ -64,24 +64,56 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li> 
-              
             </ul>
-           <button type="button" class="nav-btn btn btn-success">Handbook</button>
+           <button type="button" class="buttonTF2 nav-btn">Handbook</button>
           </div>
         </div>
     </nav>
 
     <div id="index-hero-section" class="container d-flex flex-column  align-items-center mb-5">
-        <h1 class="TFont-h1 index-hero-title align-items-center">Tech Fleet Community DAO</h1>
-        <p class="highlight-txt">Powered by Kadena</p>
-        <h5 class="index-hero-subtitle">Real tech experience for anyone, anywhere</h5>
+      <!-- TOP SECTION -->
+      <div class="row hero-section-above">
+        <div class="col">
+          <h1 class="TFont-h1 align-items-center">Tech Fleet Community DAO</h1>
+          <div class="TFont-p-24px text-center">
+            <img src="./media/kadena-kda-logo 1.svg" alt="kadena logo" />
+            <span class="highlight-txt">Powered by Kadena</span>
+          </div>
+        </div>
+      </div>
+        
+      <!-- REAL TECH EXPERIENCE -->
+      <div class="col hero-section-below">
+        <h5 class="TFont-h3">Real tech experience for anyone, anywhere</h5>
+        <div class="icons-container text-center"> 
+          <ul class="icons-list">
+            <li>
+              <img src="./media/astronaut5.svg" width="100px" />
+            </li>
+            <li>
+              <img src="./media/astronaut5.svg" width="100px" />
+            </li>
+            <li>
+              <img src="./media/astronaut5.svg" width="100px" />
+            </li>
+            <li>
+              <img src="./media/astronaut5.svg" width="100px" />
+            </li>
+          </ul>
 
-        <p>We’re on a mission to provide equal and equitable access to Tech careers. We’re a community agency serving Web2 and Web3, 
+        </div>
+        <!-- <p class="TFont-p-20px">We’re on a mission to provide equal and equitable access to Tech careers. We’re a community agency serving Web2 and Web3, 
             a community Tech apprenticeship program, a UX/Product/Dev social network, a community product incubator, and a community startup 
             accelerator. 
-        </p>
-        <button type="button" class="btn btn-success">See our work</button>
-        <button type="button" class="btn btn-light">Hire us</button>
+        </p> -->
+      </div>
+      
+      <!-- BUTTONS -->
+      <div class="d-flex flex-column mb-5">
+         <button type="button" class="buttonTF2 nav-btn see-our-work">See our work</button>
+          <button type="button" class="buttonTF hire-us">Hire us</button>
+      </div>
+       
 
     </div>
     

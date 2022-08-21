@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="index.css" rel="stylesheet" >
+
+
   </head>
   <body>
     <nav class="navbar-section navbar navbar-expand-lg mb-5">
@@ -66,9 +72,10 @@
     </nav>
 
     <div id="index-hero-section" class="container d-flex flex-column  align-items-center mb-5">
-        <h1 class="index-hero-title align-items-center">Tech Fleet Community DAO</h1>
+        <h1 class="TFont-h1 index-hero-title align-items-center">Tech Fleet Community DAO</h1>
         <p class="highlight-txt">Powered by Kadena</p>
         <h5 class="index-hero-subtitle">Real tech experience for anyone, anywhere</h5>
+
         <p>We’re on a mission to provide equal and equitable access to Tech careers. We’re a community agency serving Web2 and Web3, 
             a community Tech apprenticeship program, a UX/Product/Dev social network, a community product incubator, and a community startup 
             accelerator. 
@@ -77,11 +84,19 @@
         <button type="button" class="btn btn-light">Hire us</button>
 
     </div>
-    <div class="spacer mb-5"></div>
+    
+    <div class="spacer mb-5">
 
+
+    </div>
+
+<!-- container for everything in the body except the header section -->
     <div class="container d-flex flex-column align-items-center mb-5">
-        <h2>New grads and career transitioners: <br> feeling lost in space? </h2>
-        <p class="mb-5">They say you can’t get a job without experience, and you can’t get <br> experience without a job.</p>
+
+<!-- new grads and career transitioners section -->
+      <div class="container text-center">
+        <h2 class="TFont-h2 text-white text-center">New grads and career transitioners: <br> feeling lost in space? </h2>
+        <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">They say you can’t get a job without experience, and you can’t get <br> experience without a job.</p>
         
         <!-- is there a better way to make svg responsive? this is just a placeholder for now-->
             <picture>
@@ -89,8 +104,8 @@
             <img src="./media/astronaut5.svg" class="img-fluid " alt="...">
           </picture>
 
-          <h2>You need 0 experience to blast off with Tech Fleet </h2>
-          <p class="mb-5">We offer real-world learning opportunities whether you have experience or not. You can
+          <h2 class="TFont-h2 text-white text-center">You need 0 experience to blast off with Tech Fleet </h2>
+          <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">We offer real-world learning opportunities whether you have experience or not. You can
              learn the ropes of product life while getting on-the-job training and mentorship from leads. And 
              it’s free to you!
           </p>
@@ -107,63 +122,82 @@
 
           <button type="button" class="btn btn-success">How it works</button>
 
-          <h2>Choose your path to the Real World</h2>
-          <p class="mb-5">Learn on the job and build experience while working with real clients. Learn the ways
+        </div>
+
+
+
+<div class="container d-flex flex-column">
+          <h2 class="TFont-h2 text-white text-center">Choose your path to the Real World</h2>
+          <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Learn on the job and build experience while working with real clients. Learn the ways
              of UX and Product and Development from industry vets. Join a global community of aspiring Techies 
              supporting each other’s growth. 
           </p>
-<!-- image section for the apprenbticeshhip mission and freelancemission,  social activites, leadership mission, the real world -->
+          <!-- image section for the apprenbticeshhip mission and freelancemission,  social activites, leadership mission, the real world -->
           <button type="button" class="btn btn-success">How it works</button>
-
-          <h2>Helping people learn by doing since 2020</h2>
-          <p class="mb-5">Only jobs teach you some of the hard and soft skills you need to succeed in UX, Product, or 
-            Development. We teach them in Tech Fleet.
-          </p>
-<div id="index-table" class="">
-    <div class="row ">
-        <div class="col col-md-6 d-flex flex-column align-items-center">
-            <img src="" alt="img here">
-            <p>Agile Methods</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Lean UX</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Developer Collab</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Cross-functional Work</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Continuous Discovery</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Strategy and Ideation</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>Product Planning</p>
-        </div>
-        <div class="col col-md-6 d-flex flex-column  align-items-center">
-            <img src="" alt="img here">
-            <p>UX/Product Operations</p>
-        </div>
-    </div>
 
 </div>
 
-<button type="button" class="btn btn-success">Learn about us</button>
 
-<h2>Let the Fleet work for you</h2>
-<p class="mb-5">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
+<!-- helping people learn by doing section -->
+  <div class="container d-flex flex-column">
+          <h2 class="TFont-h2 text-white text-center">Helping people learn by doing since 2020</h2>
+          <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Only jobs teach you some of the hard and soft skills you need to succeed in UX, Product, or 
+            Development. We teach them in Tech Fleet.
+          </p>
+      <div id="index-table" class="">
+          <div class="row ">
+              <div class="col col-md-6 d-flex flex-column align-items-center">
+                  <img src="" alt="img here">
+                  <p>Agile Methods</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Lean UX</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Developer Collab</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Cross-functional Work</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Continuous Discovery</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Strategy and Ideation</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>Product Planning</p>
+              </div>
+              <div class="col col-md-6 d-flex flex-column  align-items-center">
+                  <img src="" alt="img here">
+                  <p>UX/Product Operations</p>
+              </div>
+          </div>
+
+      </div>
+<div class=" w-100 d-flex justify-content-center">
+  <button type="button" class="btn btn-success ">Learn about us</button>
+</div>
+  
+
+  </div>
+
+
+  <!-- let the fleet work for you section -->
+<div class="container d-flex flex-column">
+ 
+  <h2  class="TFont-h2 text-white text-center">Let the Fleet work for you</h2>
+  <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
     business goals. We offer pro bono services for nonprofits. We’ll work for tokens or equity. By being our client you’re 
     helping aid in our mission to provide equal access to Tech.
 </p>
+
 
 <div class="row">
     <div class="col col-md-6">
@@ -181,21 +215,120 @@
             <li>Curious whether we offer a service you don’t see? Let’s talk! </li>
         </ul>
     </div>
-    <button type="button" class="btn btn-success">Learn about us</button>
+   </div>
+   <button type="button" class="btn btn-success">Learn about us</button>
+
 </div>
 
-<h2>Calling all recruits</h2>
-<p class="mb-5">Apprenticeship and leadership roles are open for limited time each time we open them up. Check out our current 
+
+
+<!-- caling all recruits/ projects section -->
+<div class="container d-flex flex-column">
+
+
+<h2  class="TFont-h2 text-white text-center">Calling all recruits</h2>
+<p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Apprenticeship and leadership roles are open for limited time each time we open them up. Check out our current 
     project openings and apply to be a part of the Fleet. No experience required.
 </p>
 <img src="./media/Group369.jpg" alt=""  class="img-fluid ">
+
+
+
+<img src="/media/Group369.jpg" alt=""  class="img-fluid" style="max-height: 500px; max-width: 500px;">
 <p>There are no projects to apply to right now. You can shadow the live projects listed below.</p>
 
-<h2>See Tech Fleet in action</h2>
-<p class="mb-5">Wondering what it’s like in the Fleet? Anyone can join Tech Fleet meetings to shadow and observe teams. Check 
-    out our live apprenticeships and watch the magic happen. 
+</div>
+    
 
-    <h3>live missions</h3>
+<!-- see tech fleet in action live mission section starts -->
+<div id="livemissions-section">
+  <div class="row">
+    <div class="d-flex flex-row justify-content-between">
+      <img src="./media/nails.svg" alt="">
+      <img src="./media/nails.svg" alt="">
+    </div>
+  </div>
+<div  class="container d-flex flex-column">
+
+
+<h2 class="TFont-h2 text-black">See Tech Fleet in action</h2>
+<p  class="mb-5 TFont-p-24px text-black center-p-w-700">Wondering what it’s like in the Fleet? Anyone can join Tech Fleet meetings to shadow and observe teams. Check 
+    out our live apprenticeships and watch the magic happen. </p>
+
+    <h3   id="live-mission-text" class="text-center mb-5 mt-3">LIVE MISSIONS</h3>
+
+      <div class="row">
+
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">EARTH HERO MOBILE APP FEATURES</p>
+              <img src="/media/Frame940.jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+                  <button type="button" class="buttonTF2 mb-2">PROJECT LEAD</button>
+                  <button type="button" class="buttonTF2 mb-2">SLACK CHANNEL</button>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">RUMINATE “FEEDBACK” PLATFORM APP</p>
+              <img src="/media/Frame 940 (1).jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+                  <button type="button" class="buttonTF2 mb-2">PROJECT LEAD</button>
+                  <button type="button" class="buttonTF2 mb-2">SLACK CHANNEL</button>
+              </div>
+          </div>
+
+
+
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">THE SERIOUS TYPE SOCIAL MEDIA APP</p>
+              <img src="/media/Frame 940 (2).jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+                  <button type="button" class="buttonTF2 mb-2">PROJECT LEAD</button>
+                  <button type="button" class="buttonTF2 mb-2">SLACK CHANNEL</button>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">TECH FLEET’S “KADET WALLET”</p>
+              <img src="/media/Frame 940 (3).jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2s">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+                  <button type="button" class="buttonTF2 mb-2">PROJECT LEAD</button>
+                  <button type="button" class="buttonTF2 mb-2">SLACK CHANNEL</button>
+              </div>
+          </div>
+
+          <h4>UP NEXT</h4>
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">INCLUSIVE</p>
+              <img src="/media/Frame 912.jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+              </div>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
+              <p class="mission-titles">INCLUSIVE</p>
+              <img src="/media/Frame 912 (1).jpg" alt=""  class="img-fluid ">
+              <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
+                  <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
+                  <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
+              </div>
+          </div>
+
+      </div>
+</div>
+
+
+
 
     <div class="row">
         <div class="col col-md-6 d-flex flex-column align-items-center">
@@ -260,8 +393,19 @@
             </div>
         </div>
 
+      <div class="d-flex flex-row justify-content-between">
+        <img src="./media/nails.svg" alt="">
+        <img src="./media/nails.svg" alt="">
+      </div>
     </div>
+  </div>
+<!-- see tech fleet in action live mission section ENDS -->
 
+
+
+
+
+<div>
 
     <div>
         <h4>previous work</h4>
@@ -292,6 +436,37 @@
               <div class="row">
                 <div class="col-12 col-md-4">
                   <img src="./media/David Headshot (1).jpg" alt="...">
+
+                <img src="/media/State_Farm_logo 1.png" alt="" class="mx-4 my-2">
+                <img src="/media/Group 339.png" alt="" class="mx-4 my-2">
+                <img src="/media/Group 113.png" alt="" class="mx-4 my-2">
+                <img src="/media/cox-auto-2 1.png" alt="" class="mx-4 my-2">
+                <img src="/media/Group 337.png" alt="" class="mx-4 my-2">
+                <img src="/media/Group 338.png" alt="" class="mx-4 my-2">
+                <img src="/media/FareHarbor_BlackTicket_CutOut 1.png" alt="" class="mx-4 my-2">
+                <img src="/media/Charles_Schwab_Corporation_logo 1.png" alt="" class="mx-4 my-2">
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+
+
+            <!-- Testimonial area -->
+            <div class="container mb-5" id="testimimonial-section">
+              <div class="row flex-wrap justify-content-center gap-5 my-5 py-5">
+
+
+
+                <div class="col col-md-4 testimonial-card">
+                  <img src="./media/David Headshot (2).jpg" alt="..." >
+
                   <h4>David</h4>
                   <h5>UX Researcher, Cox Automotive</h5>
                   <p>
@@ -302,6 +477,11 @@
                 </div>
                 <div class="col-12 col-md-4">
                   <img src="" alt="...">
+
+                <div class="col col-md-4 testimonial-card">
+                  <img src="./media/Ashley Headshot (1).jpg" alt="..." >
+
+
                   <h4>Ashley</h4>
                   <h5>UX Designer, Phase 2</h5>
                   <p>
@@ -313,6 +493,12 @@
                 </div>
                 <div class="col-12 col-md-4">
                   <img src="" alt="...">
+
+
+
+                <div class="col col-md-4 testimonial-card">
+                  <img src="./media/Helen Headshot.jpg" alt="..." >
+
                   <h4>Helen</h4>
                   <h5>UX Researcher, AnswerLab</h5>
                   <p>
@@ -327,6 +513,51 @@
             <div class="container mb-5">
               <h2 class="text-center">Hey industry partners</h2>
               <p class="mb-5 text-center">
+
+
+                <div class="col col-md-4 testimonial-card">
+                  <img src="./media/Teri Headshot.jpg" >
+                  <h4>Teri</h4>
+                  <h5>Lead UX Designer, Mindgrub</h5>
+                  <p>
+                    "Tech Fleet has given me the <strong>in-depth start-to-finish UX and agile project experience</strong> that i 
+                    seriously needed. It built up my knowledge, my portfolio, and my confidence."
+                  </p>
+                </div>
+
+
+                <div class="col col-md-4 testimonial-card">
+                  <img src="./media/Andrew Headshot.jpg" >
+                  <h4>Andrew</h4>
+                  <h5>Principal UX Researcher, Think</h5>
+                  <p>
+                    "I know the challenge of getting that first UX job can seem insurmountable atimes...
+                     communities like <strong>Tech Fleet can be a springboard for you and your career.</strong> Not only do you get a
+                     chance to work on real tangible projects, but you also have an amazing community of people that want to see everyone thrive."
+                  </p>
+                </div>
+
+
+              </div>
+            </div>
+            <!-- Testimonial area ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Partners area -->
+            <div class="container mb-5  d-flex flex-column">
+              <h2 class="text-center TFont-h2">Hey industry partners</h2>
+              <p class="mb-5 text-center TFont-p-24px center-p-w-700">
                 The world can help aid us in our mission in many ways. Contact us to talk about how you'd like to contribute to 
                 Tech Fleet's success.
               </p>
@@ -357,6 +588,7 @@
               </div>
           </div>
           </div>
+          
 
 <!-- THE TAL 9000 IS HERE TO HELP -->
 <div>
@@ -432,6 +664,24 @@
                       </div>
                   </div>
 
+                    <div>
+                      <div class="d-flex flex-column  align-items-center">
+                        <h5 class="text-black text-center mb-4">social media</h5>
+                            <div class=" d-flex flex-row flex-wrap justify-content-center" >
+                              <div class="col-6  d-flex justify-content-center"> <img src="./media/slack (2).svg" alt="" class="  p-4 square mb-5 " > </div>
+                              <div class="col-6  d-flex justify-content-center"> <img src="./media/Group 280 (1).svg" alt="" class="  p-4 square " > </div>
+                              <div class="col-6  d-flex justify-content-center"> <img src="./media/Group 276.svg" alt="" class=" p-4 square " > </div>
+                              <div class="col-6  d-flex justify-content-center"> <img src="./media/Group 279 (1).svg" alt="" class=" p-4 square " > </div>
+                              
+                            
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+
+                 
+
 
 
                 
@@ -506,6 +756,59 @@
     </div>
   </div>
 </div>
+
+
+<!-- div section ends here-etire tal9000 section -->
+<!-- Footer area -->
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <ul class="footer-item01">
+          <li class="mb-4 all-shadow">
+            <a href="#"><img src="media/send.png" alt="send-icon" width="20px" class="all-shadow" style="margin-right: 10px;">info@techfleet.org</a>
+          </li>
+          <li class="d-flex">
+            <img src="media/heart.png" alt="heart-icon" width="20px" class="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;">
+            <p>Created and maintained with love by Tech Fleet community DAO contributors.</p>
+          </li>
+          <li class="d-flex">
+            <img src="media/copyright-symbol.png" alt="copy right symbol"width="20px" class="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;">
+            <p>Copyright 2022 Tech Fleet community DAO</p>
+          </li>
+          <li class="my-4">Tech Fleet is planning on incorporating as a DAO to better serve our members globally.</li>
+          <li class="info"><img src="media/Flux white-blue.png" alt="flux white logo" width="50px" style="margin-right: 10px"><a href="#">Hosted on Flux Network</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 text-center">
+        <ul class="footer-item02">
+          <li class="mb-2"><img src="media/Frame 238.png" alt="Tech fleet logo" width="160px"></li>
+          <li class="mb-2"><a href="#">How it works</a></li>
+          <li class="mb-2"><a href="#">Hire us</a></li>
+          <li class="mb-2"><a href="#">Apply</a></li>
+          <li class="mb-2"><a href="#">Current work</a></li>
+          <li class="mb-2"><a href="#">Previous works</a></li>
+          <li class="mb-2"><a href="#">Success stories</a></li>
+          <li class="mb-2"><a href="#">Industry partners</a></li>
+          <li class="mb-2"><a href="#">About</a></li>
+          <li class="mb-2"><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <button  class=" buttonTF bg-lightyellow btn-footer mb-3">PROJECT BACKLOG</button>
+        <button  class=" buttonTF bg-lightyellow btn-footer mb-3">LITEPAPER</button>
+        <button  class=" buttonTF bg-lightyellow btn-footer mb-3">VIEW WEB CALENDAR</button>
+        <button  class=" buttonTF bg-lightyellow btn-footer mb-3">TECH FLEET HANDBOOK</button>
+        <div class="d-flex justify-content-between my-4 all-shadow">
+          <a href="#"><img src="media/Group.png" alt="group01" width="50px"></a>
+          <a href="#"><img src="media/Group 280.png" alt="group02" width="50px"></a>
+          <a href="#"><img src="media/Group 281.png" alt="group03" width="50px"></a>
+          <a href="#"><img src="media/Group 279.png" alt="group04" width="50px"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </div><!-- container ends-->
 <!-- container for everything in the body except the header section -->
   

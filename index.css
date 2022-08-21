@@ -133,6 +133,9 @@ color: #FFFFFF;
 
 
 /* NAVBAR STYLING */
+.mb-5 {
+    margin-bottom: 0;
+}
 .navbar-section {
     display: flex;
     flex-direction: column;
@@ -196,7 +199,13 @@ color: #FFFFFF;
     letter-spacing: 3%;
     line-height: 10px;
 }
-
+.icons-top {
+    
+}
+.icon-styles {
+    width: 24px;
+    margin: 1.5rem;
+}
 /* End of Navbar styling */
 
 /* Hero banner Styling */
@@ -227,6 +236,9 @@ color: #FFFFFF;
 /* End of Hero Banner Styling */
 
 /* New Grads & Career Transitioners Section */
+.new-grads-container {
+    margin: 3rem;
+}
 .new-grads-txt {
     width: 800px;
     margin: 0 auto;

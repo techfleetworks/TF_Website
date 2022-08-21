@@ -1,8 +1,90 @@
+@font-face {
+    font-family: 'Microgramma';
+    src: url(./fonts/Microgramma\ D\ Extended\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(./fonts/futur.ttf);
+}
+
 body{
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
-    ;
+    box-sizing: border-box;
+    font-family: 'Futuraa';
+    
 }
+
+
+/* FONT STYLES FROM FIGMA FILE */
+/* i coppied and pasted, please make sure its correct for your section by veryfing with the actual figma design.*/
+.TFont-navbar{
+    font-family: 'Futura', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-navbar-active{
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 24.4944px #049A52, 0px 0px 13.9968px #049A52, 0px 0px 8.1648px #049A52, 0px 0px 4.0824px #049A52, 0px 0px 1.1664px #049A52, 0px 0px 0.5832px #049A52;
+}
+
+.TFont-h1{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.3rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-h2{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-h3{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-p-20px{
+font-family: 'Inter', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 1.5rem;
+text-align: center;
+letter-spacing: 0.03rem;
+color: #FFFFFF;
+}
+
+.TFont-p-24px{
+    font-family: 'Futura', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+
+
+
 
 
 /* height needs to change responsive once we implement SASS into the project. */
@@ -12,8 +94,64 @@ body{
     height: 100px;
    box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
    box-shadow: 0 10px 0 0 #80823A;
+   font-family: 'Microgramma';
+   transition:all .3s ease-out; 
 
 }
+
+.buttonTF2{
+    font-family: 'Microgramma';
+    height: 94px;
+    box-shadow: 0px 0px 66.8304px #329C2B,
+    0px 0px 38.1888px #329C2B,
+     0px 0px 22.2768px #329C2B,
+     0px 0px 11.1384px #329C2B,
+     0px 0px 3.1824px #329C2B,
+     0px 0px 1.5912px #329C2B;
+     background-color:  #01FF85;
+     border: 1px solid #01FF85;
+     padding: 30px 40px;
+     font-size: 20px;
+     min-width: 45%;
+     flex-grow: 1;
+     transition:all .3s ease-out; 
+}
+
+
+
+
+.testimonial-card{
+    min-width: 300px;
+    max-width: 375px;
+}
+
+.testimonial-card img{
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    border: 3px solid rgba(23, 215, 160, 0.5);
+    border-radius: 50%;
+}
+#livemissions-section{
+    background-color: #C9BCBC !important;
+}
+
+@media only screen and (max-width: 600px) {
+   
+.buttonTF2-group{
+display: flex;
+flex-direction: column !important;
+justify-content: center !important;
+
+
+}
+.buttonTF2{
+    width: 100% !important;
+}
+  }
+
+
+
 
 .bg-lightyellow{
     background-color:#F0F0DF;
@@ -26,9 +164,6 @@ body{
 }
 
 
-/* medi query for each breakpoint so that the 
-width and height of the box changes while there always centered. the box will 
-include padding and margin */
 #bg-tal9000 .square{
     width: 130px;
     height: 120px;
@@ -38,11 +173,33 @@ include padding and margin */
 
 }
 
-.img-headshot{
-    border-radius: 50%;
-    width: 200px;
-    border: 2px solid #0F7573;
+.center-p-w-700{
+    max-width: 700px;
+    align-self: center;
+    
 }
+
+#live-mission-text{
+font-family: 'Microgramma';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.03em;
+color: #100D26;
+}
+
+.mission-titles{
+font-family: 'Microgramma';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #100D26;
+}
+
+
 
 /* All footer styling */
 /* All footer styling */
@@ -68,13 +225,55 @@ include padding and margin */
     color: #EEEEEE;
 }
 
-/* All four buttons on footer */
-.btn-footer{
-    box-shadow: 0 5px 0 0 #848445;
+
+  /* All four buttons on footer */
+/* .btn-footer{
+     box-shadow: 0 5px 0 0 #848445; 
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     filter: drop-shadow(0px 0px 12px #8b7e84) drop-shadow(0px 0px 12px #8b7e84);
-}
+} 
+ */
+
+
 .all-shadow{
     filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
 }
+ 
+
+.btn-footer{
+    filter: drop-shadow(0px 0px 12px #8b7e84) drop-shadow(0px 0px 12px #8b7e84);
+
+    outline:0; 
+    font-size:1em;
+    font-weight:600;
+    background:#fff;
+    border:none;
+    padding:2em 4em;
+    transition:all .07s ease-out; 
+    box-shadow:inset 0 -8px 0 0 #80823A,
+      1px 1px 0 0 #f0f0df88,
+      2px 2px 0 0 #f0f0df88,
+      3px 3px 0 0 #f0f0df88,
+      4px 4px 0 0 #f0f0df88,
+      5px 5px 0 0 #f0f0df88,
+      6px 6px 0 0 #f0f0df88,
+      7px 7px 0 0 #f0f0df88,
+      8px 8px 0 0 #f0f0df88,
+      9px 9px 0 0 #f0f0df88,
+      10px 10px 0 0 #f0f0df88,
+      11px 11px 0 0 #f0f0df88,
+      12px 12px 0 0 #f0f0df88;
+  }
+  .btn-footer:hover{
+    color:#444;
+  }
+  .btn-footer:active{
+    color:#222;
+    box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
+      1px 1px 0 0 #f0f0df88,
+      2px 2px 0 0 #f0f0df88,
+      3px 3px 0 0 #f0f0df88,
+      4px 4px 0 0 #f0f0df88,
+      5px 5px 0 0 #f0f0df88;
+  }

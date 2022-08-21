@@ -1,3 +1,10 @@
+/* Using scss
+// Change hues as you need
+$primary-color: #100D26;
+$secondary-color: #01FF85
+*/
+
+
 body{
     background-color: #a3a2a2;
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
@@ -18,9 +25,11 @@ body{
     height: 94px;
     gap: 30px;
     border: 1px solid rgba(1, 255, 133, 0.3);
+    justify-content: inherit;
 }
 .nav-middle-section li {
     --bs-nav-link-color: #fff;
+    margin: .5rem;
 }
 /* Permanantly styles Home link as green highlight - needs to change */
 /* .nav-middle-section ul:first-child {

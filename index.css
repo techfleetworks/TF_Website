@@ -230,14 +230,10 @@ color: #FFFFFF;
     padding: 30px 40px;
 }
 .icons-container {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .icons-list {
-    list-style-type: none;
-    display: inline-flex;
-}
-.icons-list li {
-    margin: 2rem;
+    margin: 2rem 0;
 }
 /* Animation for astronaut */
 .rotate {

@@ -133,13 +133,6 @@ color: #FFFFFF;
 
 
 /* NAVBAR STYLING */
-.sticky {
-    position: fixed;
-    top: 23px;
-    width: 100%;
-    left: 280px;
-    z-index: 1;
-}
 .mb-5 {
     margin-bottom: 0;
 }
@@ -207,9 +200,6 @@ color: #FFFFFF;
     letter-spacing: 3%;
     line-height: 10px;
 }
-.icons-top {
-    
-}
 .icon-styles {
     width: 24px;
     margin: 1.5rem;
@@ -241,11 +231,10 @@ color: #FFFFFF;
 .icons-list li {
     margin: 2rem;
 }
-
+/* Animation for astronaut */
 .rotate {
     animation: rotation 12s infinite linear;
 }
-
 @keyframes rotation {
     from {
         transform: rotate(0deg);

@@ -24,12 +24,19 @@ body{
     src: url(./fonts/futur.ttf);
 }
 
+
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body{
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
-    box-sizing: border-box;
     font-family: 'Futuraa';
-    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -262,7 +269,7 @@ color: #FFFFFF;
 /* End of New Grads */
 
 .testimonial-card{
-    min-width: 300px;
+    min-width: 200px;
     max-width: 375px;
 }
 
@@ -275,6 +282,9 @@ color: #FFFFFF;
 }
 #livemissions-section{
     background-color: #C9BCBC !important;
+}
+#testimonial-section{
+    flex-grow: 1;
 }
 
 @media only screen and (max-width: 600px) {

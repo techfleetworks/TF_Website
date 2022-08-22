@@ -133,6 +133,13 @@ color: #FFFFFF;
 
 
 /* NAVBAR STYLING */
+.sticky {
+    position: fixed;
+    top: 23px;
+    width: 100%;
+    left: 280px;
+    z-index: 1;
+}
 .mb-5 {
     margin-bottom: 0;
 }

@@ -140,12 +140,12 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1920px;
+    /* width: 1920px; */
 }
 .nav-middle-section {
     background-color: #100D26;
     padding: 5px 20px 5px 30px;
-    width: 1546px;
+    /* width: 1546px; */
     height: 94px;
     gap: 30px;
     border: 1px solid rgba(1, 255, 133, 0.3);
@@ -203,6 +203,14 @@ color: #FFFFFF;
 .icon-styles {
     width: 24px;
     margin: 1.5rem;
+}
+
+/* Media Queries for Navbar */
+@media all and (min-width: 1400px) and (max-width: 1980px) {
+    .TFont-navbar, .buttonTF, .buttonTF2 {
+        font-size: smaller;
+        text-align: center;
+    }
 }
 /* End of Navbar styling */
 

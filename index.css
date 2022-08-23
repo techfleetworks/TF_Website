@@ -1,3 +1,19 @@
+/* Using scss
+// Change hues as you need
+$primary-color: #100D26;
+$secondary-color: #01FF85
+*/
+
+
+body{
+    background-color: #a3a2a2;
+    background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+
 @font-face {
     font-family: 'Microgramma';
     src: url(./fonts/Microgramma\ D\ Extended\ Bold.otf);
@@ -85,13 +101,11 @@ color: #FFFFFF;
 
 .TFont-p-24px{
     font-family: 'Futura', sans-serif;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.875rem;
     color: #FFFFFF;
 }
-
-
-
 
 
 /* height needs to change responsive once we implement SASS into the project. */
@@ -100,7 +114,7 @@ color: #FFFFFF;
     width: 100%;
     height: 100px;
    box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
-   box-shadow: 0 10px 0 0 #80823A;
+   border-bottom: 10px solid #80823A;
    font-family: 'Microgramma';
    transition:all .3s ease-out; 
 
@@ -115,17 +129,144 @@ color: #FFFFFF;
      0px 0px 11.1384px #329C2B,
      0px 0px 3.1824px #329C2B,
      0px 0px 1.5912px #329C2B;
-     background-color:  #01FF85;
-     border: 1px solid #01FF85;
-     padding: 30px 40px;
-     font-size: 20px;
-     min-width: 45%;
-     flex-grow: 1;
-     transition:all .3s ease-out; 
+    background-color:  #01FF85;
+    border: 1px solid #01FF85;
+    padding: 30px 40px;
+    font-size: 20px;
+    min-width: 45%;
+    flex-grow: 1;
+    transition:all .3s ease-out; 
 }
 
 
+/* NAVBAR STYLING */
+.mb-5 {
+    margin-bottom: 0;
+}
+.navbar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 1920px; */
+}
+.nav-middle-section {
+    background-color: #100D26;
+    padding: 11px 20px 11px 30px;
+    /* width: 1546px; */
+    /* height: 94px; */
+    gap: 30px;
+    border: 1px solid rgba(1, 255, 133, 0.3);
+    justify-content: inherit;
+}
+.nav-middle-section li {
+    --bs-nav-link-color: #fff;
+    margin: .5rem;
+}
+/* Permanantly styles Home link as green highlight - needs to change */
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.nav-middle-section a:hover {
+    color: #01FF85;
+}
+/* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
+.nav-middle-section a:focus, .highlight-txt {
+    /* color: #FFFFFF; */
+    color: #01FF85;
+        --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.highlight-txt {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Highlights green when the link is clicked */
+.nav-middle-section a:active {
+    color: #FFFFFF;
+      --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+/* Visited color set to #FFF - this can be updated later*/
+/* .nav-middle-section a:visited {
+    color: #fff;
+} */
 
+.nav-btn {
+    min-width: 178px;
+    height: 60px;
+    background: #01FF85;
+    border-bottom: 10px solid #0D6A08;
+    /* gap: 10px; */
+    font-size: 16px;
+    color: #100D26;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    line-height: 10px;
+}
+.icon-styles {
+    width: 24px;
+    margin: 1.5rem;
+}
+
+/* Media Queries for Navbar */
+@media all and (min-width: 1400px) and (max-width: 1900px) {
+    .TFont-navbar, .buttonTF, .buttonTF2 {
+        font-size: smaller;
+        text-align: center;
+    }
+}
+/* End of Navbar styling */
+
+/* Hero banner Styling */
+.hero-section-above {
+    margin-bottom: 3rem;
+}
+.see-our-work {
+    max-width: 329px;
+    height: 90px;
+    margin: 1.5rem 0;
+}
+.hire-us {
+    background-color: #F0F0DF;
+    max-width: 329px;
+    text-transform: uppercase;
+    padding: 30px 40px;
+}
+.icons-container {
+    margin-top: 4rem;
+}
+.icons-list {
+    margin: 2rem 0;
+}
+/* Animation for astronaut */
+.rotate {
+    animation: rotation 12s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+/* End of Hero Banner Styling */
+
+/* New Grads & Career Transitioners Section */
+.new-grads-container {
+    margin: 3rem;
+}
+/* .new-grads-txt {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 2rem;
+} */
+/* End of New Grads */
 
 .testimonial-card{
     min-width: 200px;
@@ -174,6 +315,10 @@ justify-content: center !important;
 }
 
 
+/* medi query for each breakpoint so that the 
+width and height of the box changes while there always centered. the box will 
+include padding and margin */
+
 #bg-tal9000 .square{
     width: 130px;
     height: 120px;
@@ -211,6 +356,7 @@ color: #100D26;
 
 
 
+
 /* All footer styling */
 /* All footer styling */
 
@@ -235,6 +381,20 @@ color: #100D26;
     color: #EEEEEE;
 }
 
+/* All four buttons on footer */
+.btn-footer{
+    background-color: #F0F0DF;
+    height: 6em;
+    width: 27em;
+    margin-bottom: 1.2em;
+    box-shadow: 0 8px 0 0 #838343;
+    filter: drop-shadow(0px 0px 16px #86767C) drop-shadow(0px 0px 16px #86767C);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.all-shadow{
+    filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
+}
 
   /* All four buttons on footer */
 /* .btn-footer{

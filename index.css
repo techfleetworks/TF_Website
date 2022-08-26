@@ -90,6 +90,13 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
+.TFont-p-16px{
+    font-family: 'Futura', sans-serif;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+
 
 
 
@@ -146,6 +153,26 @@ color: #FFFFFF;
     flex-grow: 1;
 }
 
+
+/* Our partner area */
+/* Our partner area */
+
+.partner-items ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.partner-items ul li img{
+    width: 50px;
+}
+.square{
+    width: 130px;
+    height: 100px;
+
+    background-color:  #01FF85;
+    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B,0px 0px 22.2768px #329C2B,0px 0px 11.1384px #329C2B,0px 0px 3.1824px #329C2B,0px 0px 1.5912px #329C2B; border: 1px solid #01FF85;
+
+}
+
 @media only screen and (max-width: 600px) {
    
 .buttonTF2-group{
@@ -167,6 +194,10 @@ justify-content: center !important;
     background-color:#F0F0DF;
 }
 
+.bg-green{
+    background-color:#01FF85;
+}
+
 #bg-tal9000{
    background-color: #C9BCBC;
    padding: 20px;
@@ -178,7 +209,7 @@ justify-content: center !important;
     width: 130px;
     height: 120px;
 
-     background-color:  #01FF85;
+    background-color:  #01FF85;
     box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B,0px 0px 22.2768px #329C2B,0px 0px 11.1384px #329C2B,0px 0px 3.1824px #329C2B,0px 0px 1.5912px #329C2B; border: 1px solid #01FF85;
 
 }

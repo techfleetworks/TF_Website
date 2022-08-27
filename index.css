@@ -154,6 +154,34 @@ color: #FFFFFF;
 }
 
 
+/* Our alumni logo area && Our partner logo area */
+/* Most of the Smartphones Mobiles [Portrait] */
+@media (min-width: 280px) and (max-width: 480px){
+    .alumni-logo{
+        text-align: center;
+        display: block;
+    }
+    .alumni-logo .row div{
+        margin-bottom: 1em;
+    }
+    .alumni-logo img{
+        width: 260px;
+    }
+}
+/*  Low Resolution Tablets, Mobiles [Landscape] */
+@media (min-width: 481px) and (max-width: 767px){
+    .alumni-logo{
+        text-align: center;
+        display: block;
+    }
+    .alumni-logo .row div{
+        margin-bottom: 1em;
+    }
+    .alumni-logo img{
+        width: 300px;
+    }
+}
+
 /* Our partner area */
 /* Our partner area */
 

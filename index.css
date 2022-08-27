@@ -12,43 +12,6 @@ body{
     box-sizing: border-box;
 }
 
-/* for mobile background */
-@media all and (min-width: 300px) and (max-width: 900px) {
-    body {
-        background: linear-gradient(180deg, #110E0E 0%, #2F2625 100%);
-    }
-    /* .banner-mobile { */
-        /* background-image: url("./media/banner-mobile.png");
-        background-size: cover; */
-        /* position: absolute;
-        width: 341px;
-        height: 715px;
-        left: 34px;
-        top: 20px;
-        z-index: -1; */
-    /* } */
-    #index-hero-section {
-        /* background-image: none !important; */
-        background-image: url("./media/banner-mobile.png") !important;
-        background-size: cover;
-    }
-    .nav-logo-img {
-        src: url("./media/Tech\ Fleet\ Logo_black.png") !important;
-        width: 50px;
-    }
-    nav {
-        background-color: #100D26;
-        height: 70px;
-    }
-    .hero-section-below {
-        background-color: #07123F;
-        opacity: 0.9;
-    }
-    .astronaut-mobile {
-        width: "60%";
-    }
-}
-/* background: linear-gradient(180deg, #110E0E 0%, #2F2625 100%); */
 
 @font-face {
     font-family: 'Microgramma';
@@ -183,13 +146,10 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 1920px; */
 }
 .nav-middle-section {
     background-color: #100D26;
     padding: 11px 20px 11px 30px;
-    /* width: 1546px; */
-    /* height: 94px; */
     gap: 30px;
     border: 1px solid rgba(1, 255, 133, 0.3);
     justify-content: inherit;
@@ -209,7 +169,6 @@ color: #FFFFFF;
 }
 /* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
 .nav-middle-section a:focus, .highlight-txt {
-    /* color: #FFFFFF; */
     color: #01FF85;
         --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
@@ -236,7 +195,6 @@ color: #FFFFFF;
     height: 60px;
     background: #01FF85;
     border-bottom: 10px solid #0D6A08;
-    /* gap: 10px; */
     font-size: 16px;
     color: #100D26;
     text-transform: uppercase;
@@ -247,14 +205,6 @@ color: #FFFFFF;
     width: 24px;
     margin: 1.5rem;
 }
-
-/* Media Queries for Navbar */
-@media all and (min-width: 1400px) and (max-width: 1900px) {
-    .TFont-navbar, .buttonTF, .buttonTF2 {
-        font-size: smaller;
-        text-align: center;
-    }
-}
 /* End of Navbar styling */
 
 /* Hero banner Styling */
@@ -262,11 +212,6 @@ color: #FFFFFF;
     background-image: url("./media/Frame\ 918.png");
     background-repeat: no-repeat;
     background-size: contain;
-    /* width: 100%\9; */
-    /* position: relative; */
-    /* width: 1920px; */
-    /* height: 904.14px; */
-    /* top: 80px; */
     z-index: -1;
 }
 .hero-section-above {
@@ -312,12 +257,6 @@ color: #FFFFFF;
 .new-grads-container {
     margin: 3rem;
 }
-/* .new-grads-txt {
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    margin-top: 2rem;
-} */
 /* End of New Grads */
 
 .testimonial-card{
@@ -499,3 +438,44 @@ color: #100D26;
       4px 4px 0 0 #f0f0df88,
       5px 5px 0 0 #f0f0df88;
   }
+
+
+
+
+
+
+  /* Design for mobile - other wise everything is responsive*/
+@media all and (min-width: 300px) and (max-width: 600px) {
+    .TFont-h1 {
+        font-size: 3rem;
+    }
+    #index-hero-section {
+        background-image: url("./media/banner-mobile.png") !important;
+    }
+    .nav-logo-img {
+        src: url("./media/Tech\ Fleet\ Logo_black.png") !important;
+        width: 50px;
+    }
+    nav {
+        background-color: #100D26;
+        height: 70px;
+    }
+    .hero-section-below {
+        background-color: #07123F;
+        opacity: 0.9;
+    }
+    .astronaut-mobile {
+        width: "60%";
+    }
+    .mobile-toggle {
+        display: none;
+    }
+    .mobile-hidden {
+        display: inherit;
+    }
+}
+
+/* May be a better way to toggle the image for mobile */
+.hidden {
+    display: none;
+}

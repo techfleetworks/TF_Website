@@ -27,7 +27,7 @@ body{
 html{
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body{
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
@@ -35,7 +35,7 @@ body{
     font-family: 'Futuraa';
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -139,6 +139,9 @@ color: #FFFFFF;
 
 
 /* NAVBAR STYLING */
+.anchor { 
+    padding-top: 90px; 
+}
 .mb-5 {
     margin-bottom: 0;
 }

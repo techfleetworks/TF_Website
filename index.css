@@ -13,25 +13,39 @@ body{
 }
 
 /* for mobile background */
-@media all and (min-width: 300px) and (max-width: 700px) {
+@media all and (min-width: 300px) and (max-width: 900px) {
     body {
         background: linear-gradient(180deg, #110E0E 0%, #2F2625 100%);
     }
+    /* .banner-mobile { */
+        /* background-image: url("./media/banner-mobile.png");
+        background-size: cover; */
+        /* position: absolute;
+        width: 341px;
+        height: 715px;
+        left: 34px;
+        top: 20px;
+        z-index: -1; */
+    /* } */
     #index-hero-section {
-        background-image: url("./media/banner-mobile.png");
-        background-repeat: no-repeat;
-        position: relative;
-        /* width: fit-content; */
-        z-index: -1;
+        /* background-image: none !important; */
+        background-image: url("./media/banner-mobile.png") !important;
+        background-size: cover;
+    }
+    .nav-logo-img {
+        src: url("./media/Tech\ Fleet\ Logo_black.png") !important;
+        width: 50px;
     }
     nav {
         background-color: #100D26;
+        height: 70px;
     }
     .hero-section-below {
         background-color: #07123F;
         opacity: 0.9;
-        /* #0000004D */
-        
+    }
+    .astronaut-mobile {
+        width: "60%";
     }
 }
 /* background: linear-gradient(180deg, #110E0E 0%, #2F2625 100%); */
@@ -247,10 +261,11 @@ color: #FFFFFF;
 #index-hero-section {
     background-image: url("./media/Frame\ 918.png");
     background-repeat: no-repeat;
+    background-size: contain;
     /* width: 100%\9; */
-    position: relative;
+    /* position: relative; */
     /* width: 1920px; */
-    height: 904.14px;
+    /* height: 904.14px; */
     /* top: 80px; */
     z-index: -1;
 }
@@ -269,10 +284,15 @@ color: #FFFFFF;
     padding: 30px 40px;
 }
 .icons-container {
-    margin-top: 4rem;
+    display: inline-flex;
+    justify-content: center;
 }
 .icons-list {
     margin: 2rem 0;
+}
+.p-index-icons {
+    width: 215px;
+    text-align: center;
 }
 /* Animation for astronaut */
 .rotate {

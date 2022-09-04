@@ -5,7 +5,7 @@ $secondary-color: #01FF85
 */
 
 
-body{
+body {
     background-color: #a3a2a2;
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
@@ -25,12 +25,13 @@ body{
 }
 
 
-html{
+html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 }
-body{
+
+body {
     background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
     font-family: 'Futuraa';
@@ -42,7 +43,7 @@ body{
 
 /* FONT STYLES FROM FIGMA FILE */
 /* i coppied and pasted, please make sure its correct for your section by veryfing with the actual figma design.*/
-.TFont-navbar{
+.TFont-navbar {
     font-family: 'Futura', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -50,13 +51,13 @@ body{
     color: #FFFFFF;
 }
 
-.TFont-navbar-active{
+.TFont-navbar-active {
     font-weight: 700;
     text-decoration-line: underline;
     text-shadow: 0px 0px 24.4944px #049A52, 0px 0px 13.9968px #049A52, 0px 0px 8.1648px #049A52, 0px 0px 4.0824px #049A52, 0px 0px 1.1664px #049A52, 0px 0px 0.5832px #049A52;
 }
 
-.TFont-h1{
+.TFont-h1 {
     font-family: 'Futura', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -66,7 +67,7 @@ body{
     color: #FFFFFF;
 }
 
-.TFont-h2{
+.TFont-h2 {
     font-family: 'Futura', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -77,7 +78,7 @@ body{
     color: #FFFFFF;
 }
 
-.TFont-h3{
+.TFont-h3 {
     font-family: 'Futura', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -88,18 +89,19 @@ body{
     color: #FFFFFF;
 }
 
-.TFont-p-20px{
-font-family: 'Inter', sans-serif;;
-font-style: normal;
-font-weight: 400;
-font-size: 1.25rem;
-line-height: 1.5rem;
-text-align: center;
-letter-spacing: 0.03rem;
-color: #FFFFFF;
+.TFont-p-20px {
+    font-family: 'Inter', sans-serif;
+    ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.03rem;
+    color: #FFFFFF;
 }
 
-.TFont-p-24px{
+.TFont-p-24px {
     font-family: 'Futura', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
@@ -107,7 +109,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.TFont-p-16px{
+.TFont-p-16px {
     font-family: 'Futura', sans-serif;
     font-size: 1rem;
     line-height: 1.875rem;
@@ -116,33 +118,33 @@ color: #FFFFFF;
 
 
 /* height needs to change responsive once we implement SASS into the project. */
-.buttonTF{
-  border: none;
+.buttonTF {
+    border: none;
     width: 100%;
     height: 100px;
-   box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
-   border-bottom: 10px solid #80823A;
-   font-family: 'Microgramma';
-   transition:all .3s ease-out; 
+    box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
+    border-bottom: 10px solid #80823A;
+    font-family: 'Microgramma';
+    transition: all .3s ease-out;
 
 }
 
-.buttonTF2{
+.buttonTF2 {
     font-family: 'Microgramma';
     height: 94px;
     box-shadow: 0px 0px 66.8304px #329C2B,
-    0px 0px 38.1888px #329C2B,
-     0px 0px 22.2768px #329C2B,
-     0px 0px 11.1384px #329C2B,
-     0px 0px 3.1824px #329C2B,
-     0px 0px 1.5912px #329C2B;
-    background-color:  #01FF85;
+        0px 0px 38.1888px #329C2B,
+        0px 0px 22.2768px #329C2B,
+        0px 0px 11.1384px #329C2B,
+        0px 0px 3.1824px #329C2B,
+        0px 0px 1.5912px #329C2B;
+    background-color: #01FF85;
     border: 1px solid #01FF85;
     padding: 30px 40px;
     font-size: 20px;
     min-width: 45%;
     flex-grow: 1;
-    transition:all .3s ease-out; 
+    transition: all .3s ease-out;
 }
 
 
@@ -150,12 +152,14 @@ color: #FFFFFF;
 .mb-5 {
     margin-bottom: 0;
 }
+
 .navbar-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* width: 1920px; */
 }
+
 .nav-middle-section {
     background-color: #100D26;
     padding: 11px 20px 11px 30px;
@@ -165,38 +169,47 @@ color: #FFFFFF;
     border: 1px solid rgba(1, 255, 133, 0.3);
     justify-content: inherit;
 }
+
 .nav-middle-section li {
     --bs-nav-link-color: #fff;
     margin: .5rem;
 }
+
 /* Permanantly styles Home link as green highlight - needs to change */
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
     --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
     text-decoration: underline;
 }
+
 .nav-middle-section a:hover {
     color: #01FF85;
 }
+
 /* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
-.nav-middle-section a:focus, .highlight-txt {
+.nav-middle-section a:focus,
+.highlight-txt {
     /* color: #FFFFFF; */
     color: #01FF85;
-        --bs-navbar-active-color: #01FF85;
+    --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
     text-decoration: underline;
 }
+
 .highlight-txt {
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* Highlights green when the link is clicked */
 .nav-middle-section a:active {
     color: #FFFFFF;
-      --bs-navbar-active-color: #01FF85;
+    --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
     text-decoration: underline;
 }
+
 /* Visited color set to #FFF - this can be updated later*/
 /* .nav-middle-section a:visited {
     color: #fff;
@@ -214,6 +227,7 @@ color: #FFFFFF;
     letter-spacing: 3%;
     line-height: 10px;
 }
+
 .icon-styles {
     width: 24px;
     margin: 1.5rem;
@@ -221,52 +235,65 @@ color: #FFFFFF;
 
 /* Media Queries for Navbar */
 @media all and (min-width: 1400px) and (max-width: 1900px) {
-    .TFont-navbar, .buttonTF, .buttonTF2 {
+
+    .TFont-navbar,
+    .buttonTF,
+    .buttonTF2 {
         font-size: smaller;
         text-align: center;
     }
 }
+
 /* End of Navbar styling */
 
 /* Hero banner Styling */
 .hero-section-above {
     margin-bottom: 3rem;
 }
+
 .see-our-work {
     max-width: 329px;
     height: 90px;
     margin: 1.5rem 0;
 }
+
 .hire-us {
     background-color: #F0F0DF;
     max-width: 329px;
     text-transform: uppercase;
     padding: 30px 40px;
 }
+
 .icons-container {
     margin-top: 4rem;
 }
+
 .icons-list {
     margin: 2rem 0;
 }
+
 /* Animation for astronaut */
 .rotate {
     animation: rotation 12s infinite linear;
 }
+
 @keyframes rotation {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(359deg);
     }
 }
+
 /* End of Hero Banner Styling */
 
 /* New Grads & Career Transitioners Section */
 .new-grads-container {
     margin: 3rem;
 }
+
 /* .new-grads-txt {
     width: 800px;
     margin: 0 auto;
@@ -275,50 +302,63 @@ color: #FFFFFF;
 } */
 /* End of New Grads */
 
-.testimonial-card{
+.testimonial-card {
     min-width: 200px;
     max-width: 375px;
 }
 
-.testimonial-card img{
+.testimonial-card img {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
     border: 3px solid rgba(23, 215, 160, 0.5);
     border-radius: 50%;
 }
-#livemissions-section{
+
+#livemissions-section {
     background-color: #C9BCBC !important;
 }
-#testimonial-section{
+
+#testimonial-section {
     flex-grow: 1;
 }
 
 
 /* Our alumni logo area && Our partner logo area */
 /* Most of the Smartphones Mobiles [Portrait] */
-@media (min-width: 280px) and (max-width: 480px){
-    .alumni-logo{
+@media (min-width: 280px) and (max-width: 480px) {
+    .alumni-logo {
         text-align: center;
         display: block;
     }
-    .alumni-logo .row div{
-        margin-bottom: 1em;
+
+    .alumni-logo .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5px;
     }
-    .alumni-logo img{
-        width: 260px;
+
+    /* .alumni-logo .row div{
+        margin-bottom: 1em;
+    } */
+    .alumni-logo img {
+        width: auto;
+        object-fit: cover;
     }
 }
+
 /*  Low Resolution Tablets, Mobiles [Landscape] */
-@media (min-width: 481px) and (max-width: 767px){
-    .alumni-logo{
+@media (min-width: 481px) and (max-width: 767px) {
+    .alumni-logo {
         text-align: center;
         display: block;
     }
-    .alumni-logo .row div{
+
+    .alumni-logo .row div {
         margin-bottom: 1em;
     }
-    .alumni-logo img{
+
+    .alumni-logo img {
         width: 300px;
     }
 }
@@ -326,51 +366,78 @@ color: #FFFFFF;
 /* Our partner area */
 /* Our partner area */
 
-.partner-items ul li{
-    list-style-type: none;
-    padding-bottom: 10px;
+
+.partner-items ul li {
+    list-style: none;
+    padding: 10px 30px;
+    /* background-image: url(media/Group\ 354.png); */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    isolation: isolate;
+    position: relative;
 }
-.partner-items ul li img{
-    width: 50px;
+
+.partner-items ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid #01FF85;
+    position: absolute;
+    top: 13px;
+    left: -2px;
+    border-radius: 50%;
+    z-index: -1;
 }
-.square{
+
+
+/* .partner-items ul li::first-letter{
+    font-size: 30px;
+}
+.partner-items ul li::first-line{
+    font-size: 30px;
+} */
+.square {
     width: 130px;
     height: 100px;
 
-    background-color:  #01FF85;
-    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B,0px 0px 22.2768px #329C2B,0px 0px 11.1384px #329C2B,0px 0px 3.1824px #329C2B,0px 0px 1.5912px #329C2B; border: 1px solid #01FF85;
+    background-color: #01FF85;
+    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B, 0px 0px 22.2768px #329C2B, 0px 0px 11.1384px #329C2B, 0px 0px 3.1824px #329C2B, 0px 0px 1.5912px #329C2B;
+    border: 1px solid #01FF85;
 
 }
 
 @media only screen and (max-width: 600px) {
-   
-.buttonTF2-group{
-display: flex;
-flex-direction: column !important;
-justify-content: center !important;
 
+    .buttonTF2-group {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+
+    }
+
+    .buttonTF2 {
+        width: 100% !important;
+    }
 
 }
-.buttonTF2{
-    width: 100% !important;
-}
-  }
 
 
 
 
-.bg-lightyellow{
-    background-color:#F0F0DF;
+.bg-lightyellow {
+    background-color: #F0F0DF;
 }
 
-.bg-green{
-    background-color:#01FF85;
+.bg-green {
+    background-color: #01FF85;
 }
 
-#bg-tal9000{
-   background-color: #C9BCBC;
-   padding: 20px;
-   gap: 50px;
+#bg-tal9000 {
+    background-color: #C9BCBC;
+    padding: 20px;
+    gap: 50px;
 }
 
 
@@ -378,39 +445,40 @@ justify-content: center !important;
 width and height of the box changes while there always centered. the box will 
 include padding and margin */
 
-#bg-tal9000 .square{
+#bg-tal9000 .square {
     width: 130px;
     height: 120px;
 
-    background-color:  #01FF85;
-    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B,0px 0px 22.2768px #329C2B,0px 0px 11.1384px #329C2B,0px 0px 3.1824px #329C2B,0px 0px 1.5912px #329C2B; border: 1px solid #01FF85;
+    background-color: #01FF85;
+    box-shadow: 0px 10px 0px 0px #0D6A08, 0px 0px 66.8304px #329C2B, 0px 0px 38.1888px #329C2B, 0px 0px 22.2768px #329C2B, 0px 0px 11.1384px #329C2B, 0px 0px 3.1824px #329C2B, 0px 0px 1.5912px #329C2B;
+    border: 1px solid #01FF85;
 
 }
 
-.center-p-w-700{
+.center-p-w-700 {
     max-width: 700px;
     align-self: center;
-    
+
 }
 
-#live-mission-text{
-font-family: 'Microgramma';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 40px;
-letter-spacing: 0.03em;
-color: #100D26;
+#live-mission-text {
+    font-family: 'Microgramma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: #100D26;
 }
 
-.mission-titles{
-font-family: 'Microgramma';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #100D26;
+.mission-titles {
+    font-family: 'Microgramma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #100D26;
 }
 
 
@@ -419,43 +487,48 @@ color: #100D26;
 /* All footer styling */
 /* All footer styling */
 
-.footer-item01{
+.footer-item01 {
     list-style-type: none;
     font-size: 19px;
 }
-.footer-item01 li:first-child a{
+
+.footer-item01 li:first-child a {
     color: #01FF85;
     font-weight: bold;
 }
-.footer-item01 .info a{
+
+.footer-item01 .info a {
     color: #EEEEEE;
     font-weight: bold;
 }
-.footer-item02{
+
+.footer-item02 {
     list-style-type: none;
     font-size: 19px;
 }
-.footer-item02 li a{
+
+.footer-item02 li a {
     text-decoration: none;
     color: #EEEEEE;
 }
 
 /* All four buttons on footer */
-.btn-footer{
+.btn-footer {
     background-color: #F0F0DF;
     height: 6em;
-    width: 27em;
+    width: 20em;
     margin-bottom: 1.2em;
     box-shadow: 0 8px 0 0 #838343;
     filter: drop-shadow(0px 0px 16px #86767C) drop-shadow(0px 0px 16px #86767C);
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.all-shadow{
+
+.all-shadow {
     filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
 }
 
-  /* All four buttons on footer */
+/* All four buttons on footer */
 /* .btn-footer{
      box-shadow: 0 5px 0 0 #848445; 
     border-bottom-left-radius: 2px;
@@ -465,44 +538,46 @@ color: #100D26;
  */
 
 
-.all-shadow{
+.all-shadow {
     filter: drop-shadow(0px 0px 12px #1A921C) drop-shadow(0px 0px 12px #1A921C);
 }
- 
 
-.btn-footer{
+
+.btn-footer {
     filter: drop-shadow(0px 0px 12px #8b7e84) drop-shadow(0px 0px 12px #8b7e84);
 
-    outline:0; 
-    font-size:1em;
-    font-weight:600;
-    background:#fff;
-    border:none;
-    padding:2em 4em;
-    transition:all .07s ease-out; 
-    box-shadow:inset 0 -8px 0 0 #80823A,
-      1px 1px 0 0 #f0f0df88,
-      2px 2px 0 0 #f0f0df88,
-      3px 3px 0 0 #f0f0df88,
-      4px 4px 0 0 #f0f0df88,
-      5px 5px 0 0 #f0f0df88,
-      6px 6px 0 0 #f0f0df88,
-      7px 7px 0 0 #f0f0df88,
-      8px 8px 0 0 #f0f0df88,
-      9px 9px 0 0 #f0f0df88,
-      10px 10px 0 0 #f0f0df88,
-      11px 11px 0 0 #f0f0df88,
-      12px 12px 0 0 #f0f0df88;
-  }
-  .btn-footer:hover{
-    color:#444;
-  }
-  .btn-footer:active{
-    color:#222;
-    box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
-      1px 1px 0 0 #f0f0df88,
-      2px 2px 0 0 #f0f0df88,
-      3px 3px 0 0 #f0f0df88,
-      4px 4px 0 0 #f0f0df88,
-      5px 5px 0 0 #f0f0df88;
-  }
+    outline: 0;
+    font-size: 1em;
+    font-weight: 600;
+    background: #fff;
+    border: none;
+    padding: 2em 4em;
+    transition: all .07s ease-out;
+    box-shadow: inset 0 -8px 0 0 #80823A,
+        1px 1px 0 0 #f0f0df88,
+        2px 2px 0 0 #f0f0df88,
+        3px 3px 0 0 #f0f0df88,
+        4px 4px 0 0 #f0f0df88,
+        5px 5px 0 0 #f0f0df88,
+        6px 6px 0 0 #f0f0df88,
+        7px 7px 0 0 #f0f0df88,
+        8px 8px 0 0 #f0f0df88,
+        9px 9px 0 0 #f0f0df88,
+        10px 10px 0 0 #f0f0df88,
+        11px 11px 0 0 #f0f0df88,
+        12px 12px 0 0 #f0f0df88;
+}
+
+.btn-footer:hover {
+    color: #444;
+}
+
+.btn-footer:active {
+    color: #222;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, .2),
+        1px 1px 0 0 #f0f0df88,
+        2px 2px 0 0 #f0f0df88,
+        3px 3px 0 0 #f0f0df88,
+        4px 4px 0 0 #f0f0df88,
+        5px 5px 0 0 #f0f0df88;
+}

@@ -17,7 +17,7 @@
     <nav class="sticky-top TFont-navbar navbar-section navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./media/Tech Fleet Logo_black.svg" alt="Tech Fleet logo" />
+            <img class="nav-logo-img" src="./media/Tech Fleet Logo_black.png" alt="Tech Fleet logo" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,32 +28,32 @@
                 <a class="nav-link active TFont-navbar-active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">How it Works</a>
+                <a class="nav-link" href="#how-it-works">How it Works</a>
               <li class="nav-item">
-                <a class="nav-link" href="#"> Hire Us</a>
+                <a class="nav-link" href="#hire-us"> Hire Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Apply</a>
+                <a class="nav-link" href="#apply">Apply</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Currrent Work</a>
+                <a class="nav-link" href="#livemissions-section">Currrent Work</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Previous Work
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#previous-work">See All</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Success Stories</a>
+                <a class="nav-link" href="#success-stories">Success Stories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Partners</a>
+                <a class="nav-link" href="#partners">Partners</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -67,7 +67,11 @@
         </div>
         
     </nav>
-<!-- Icons -->
+    
+    <!-- Tech Fleet Banner -->
+    <div id="index-hero-section" class="container-fluid text-center d-flex flex-column align-items-center mb-5">
+      <!-- TOP SECTION -->
+      <!-- Icons -->
     <div class="container-fluid">
       <div class="row">
         <div class="col icons-top d-flex justify-content-end all-shadow">
@@ -79,10 +83,6 @@
         </div>
       </div>
     </div>
-    
-
-    <div id="index-hero-section" class="container text-center d-flex flex-column align-items-center mb-5">
-      <!-- TOP SECTION -->
       <div class="row hero-section-above">
         <div class="col-sm-12">
           <h1 class="TFont-h1 align-items-center">Tech Fleet Community DAO</h1>
@@ -98,39 +98,39 @@
         <div class="col-md-12 col-10">
             <h5 class="TFont-h3">Real tech experience for anyone, anywhere</h5>
         </div> 
-        <div class="col-md-3 col-sm-4 icons-container icons-list">
+        <div class="col-md-2 col-sm-4 icons-container icons-list text">
           <div class="TFont-p-20px">
-              <p>Community Tech Apprenticeships</p>
+              <p class="p-index-icons">Community Tech Apprenticeships</p>
               <img src="./media/Vector.svg" width="100px" />
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 icons-container icons-list">
+        <div class="col-md-2 col-sm-4 icons-container icons-list">
           <div class="TFont-p-20px">
-              <p>Community Web2 and Web3 agency</p>
+              <p class="p-index-icons">Community Web2 and Web3 agency</p>
               <img src="./media/sketch 1.svg" width="100px" />
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 icons-container icons-list">
+        <div class="col-md-2 col-sm-4 icons-container icons-list">
           <div class="TFont-p-20px">
-              <p>Community startup accelerator</p>
+              <p class="p-index-icons">Community startup accelerator</p>
               <img src="./media/rocket (1) 1.svg" width="100px" />
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 icons-container icons-list">
+        <div class="col-md-2 col-sm-4 icons-container icons-list">
           <div class="TFont-p-20px">
-              <p>Community product incubator</p>
+              <p class="p-index-icons">Community product incubator</p>
               <img src="./media/astronaut 6.svg" width="100px" />
           </div>
         </div>
       </div>
 
       <!-- BUTTONS -->
-      <div class="d-flex flex-column mb-5">
+      <div class="row mb-5">
+        <div class="d-flex flex-column mb-5">
          <button type="button" class="buttonTF2 nav-btn see-our-work">See our work</button>
           <button type="button" class="buttonTF hire-us">Hire us</button>
+        </div>
       </div>
-       
-
     </div>
 <!-- END OF HERO BANNER -->
     
@@ -141,46 +141,42 @@
     <div class="container d-flex flex-column align-items-center mb-5">
 
 <!-- new grads and career transitioners section - also includes You need 0 experience -->
-      <div class="row justify-content-center">
+      <div id="how-it-works" class="anchor row justify-content-center">
         <div class="col-md-12 col-10 new-grads-container text-center">
           <h2 class="TFont-h2">New grads and career transitioners: feeling<br> lost in space? </h2>
         </div>
-          <div class="col-6 new-grads-txt">
+          <div class="col-10 new-grads-txt">
             <p class="mb-5 TFont-p-24px">They say you can’t get a job without experience, and you can’t get experience without a job.</p>
           </div>
           
 <!-- is there a better way to make svg responsive? this is just a placeholder for now-->
-<!-- Added  width="40%\9" 
-  * This is in the Bootstrap docs
--->
         <div class="col-md-12 col-8 text-center">
-          <img src="./media/astronaut5.svg" alt="astronaut" class="img-fluid rotate" alt="..." width="40%\9">
+          <img src="./media/astronaut5.svg" alt="astronaut" class="img-fluid rotate astronaut-mobile" alt="..." />
         </div>
-
-        </div>
+      </div>
         
 <!-- You need 0 experience -->
-        <div class="row">
-          <h2 class="TFont-h2 text-white text-center">You need 0 experience to blast off with Tech Fleet</h2>
-          <div class="d-flex flex-column">
-            <p class="new-grads-txt mb-5 TFont-p-24px text-black center-p-w-700 text-white">
-              We offer real-world learning opportunities whether you have experience or not. You can learn the ropes of product life while getting on-the-job training and mentorship from leads. And it’s free to you!
-            </p>
+      <div class="row">
+        <h2 class="TFont-h2 text-white text-center">You need 0 experience to blast off with Tech Fleet</h2>
+        <div class="d-flex flex-column">
+          <p class="new-grads-txt mb-5 TFont-p-24px text-black center-p-w-700 text-white">
+            We offer real-world learning opportunities whether you have experience or not. You can learn the ropes of product life while getting on-the-job training and mentorship from leads. And it’s free to you!
+          </p>
 
-          <!-- section for images. make them responsive. colum 6 and stack on smaller screen.-->
-            <div class="row text-center">
-              <div class="col col-md-6">
-                <img src="./media/Discover 1.svg" alt="Dicover"  width="100%\9" class="img-fluid ">
-              </div>
-              <div class="col col-md-6">
-                  <img src="./media/Frame919.jpg" alt="Zoom call"  width="100%\9" class="img-fluid ">
-              </div>
-              <div>
-                <button type="button" class="buttonTF2 see-our-work">How it works</button>
-              </div>
+        <!-- section for images. make them responsive. colum 6 and stack on smaller screen.-->
+          <div class="row text-center justify-content-center">
+            <div class="col-11 col-md-6">
+              <img src="./media/Discover 1.svg" alt="Dicover"  width="100%\9" class="img-fluid ">
+            </div>
+            <div class="col-11 col-md-6">
+                <img src="./media/Frame919.jpg" alt="Zoom call"  width="100%\9" class="img-fluid ">
+            </div>
+            <div>
+              <button type="button" class="buttonTF2 see-our-work">How it works</button>
             </div>
           </div>
         </div>
+      </div>
 
 
 <!-- End of section -->
@@ -192,7 +188,8 @@
              of UX and Product and Development from industry vets. Join a global community of aspiring Techies 
              supporting each other’s growth. 
           </p>
-          <img src="./media/set-your-path-group.png" alt="Set your path" />
+          <img class="mobile-toggle" src="./media/set-your-path-group.png" alt="Set your path" />
+          <img class="mobile-hidden hidden mb-5" src="./media/Space-path-mobile.png" alt="Set your path" />
           <!-- image section for the apprenbticeshhip mission and freelancemission,  social activites, leadership mission, the real world -->
           <div class="text-center">
             <button type="button" class="buttonTF2 see-our-work">How it works</button>
@@ -253,9 +250,9 @@
 
 
   <!-- let the fleet work for you section -->
-<div class="container d-flex flex-column">
+<div id="hire-us" class="anchor container d-flex flex-column">
  
-  <h2  class="TFont-h2 text-white text-center">Let the Fleet work for you</h2>
+  <h2 class="TFont-h2 text-white text-center">Let the Fleet work for you</h2>
   <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
     business goals. We offer pro bono services for nonprofits. We’ll work for tokens or equity. By being our client you’re 
     helping aid in our mission to provide equal access to Tech.
@@ -286,7 +283,7 @@
 
 
 <!-- caling all recruits/ projects section -->
-<div class="container d-flex flex-column">
+<div id="apply" class="anchor container d-flex flex-column">
 
 
 <h2  class="TFont-h2 text-white text-center">Calling all recruits</h2>
@@ -302,7 +299,7 @@
     
 
 <!-- see tech fleet in action live mission section starts -->
-<div id="livemissions-section">
+<div id="livemissions-section" class="anchor">
   <div class="row">
     <div class="d-flex flex-row justify-content-between">
       <img src="./media/nails.svg" alt="">
@@ -396,7 +393,7 @@
 
 <div>
 
-    <div>
+    <div id="previous-work" class="anchor">
         <h4>previous work</h4>
         <p>The Fleet’s been hard at work building products and solving problems for the world. 
             Check out some case studies from the community.</p>
@@ -405,12 +402,11 @@
     </div>
 
 
-        <div class="d-flex flex-column  align-items-center">
-            <h2 class="text-center TFont-h2">Our alumni have landed in Tech</h2>
-            <p class="mb-5 text-center TFont-p-24px center-p-w-700">
-              Tech Fleet alumni have become job-ready for some of the best in-house and client-facing 
-              companies out there.
-            </p>
+
+        <div id="success-stories" class="anchor">
+            <h4>our alumni have landed in Tech</h4>
+            <p>Tech Fleet alumni have become job-ready for some of the best in-house and client-facing companies out there.</p>
+
             <!--logos area-->
             <div class="alumni-logo">
               <!-- First row -->
@@ -565,7 +561,7 @@
 
 
             <!-- Partners area -->
-            <div class="container mb-5  d-flex flex-column">
+            <div id="partners" class="anchor container mb-5  d-flex flex-column">
               <h2 class="text-center TFont-h2">Hey industry partners</h2>
               <p class="mb-5 text-center TFont-p-24px center-p-w-700">
                 The world can help aid us in our mission in many ways. Contact us to talk about how you'd like to contribute to 

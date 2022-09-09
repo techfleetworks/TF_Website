@@ -325,11 +325,12 @@ body {
 
 
 /* Our alumni logo area && Our partner logo area */
-/* Most of the Smartphones Mobiles [Portrait] */
-@media (min-width: 280px) and (max-width: 480px) {
+/* Most of the Smartphones Mobiles */
+@media (min-width: 280px) and (max-width: 767px) {
     .alumni-logo {
         text-align: center;
         display: block;
+        margin-bottom: 2em;
     }
 
     .alumni-logo .row {
@@ -345,21 +346,17 @@ body {
         width: auto;
         object-fit: cover;
     }
-}
-
-/*  Low Resolution Tablets, Mobiles [Landscape] */
-@media (min-width: 481px) and (max-width: 767px) {
-    .alumni-logo {
-        text-align: center;
-        display: block;
+    .sm-margin-bottom-0{
+        margin-bottom: 0 !important;
     }
-
-    .alumni-logo .row div {
-        margin-bottom: 1em;
+    /* Hire percentage area */
+    .hire-section{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 2em;
     }
-
-    .alumni-logo img {
-        width: 300px;
+    .sm-display-none{
+        display: none !important;
     }
 }
 

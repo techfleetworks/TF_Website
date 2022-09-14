@@ -13,7 +13,6 @@ body {
 }
 
 
-
 @font-face {
     font-family: 'Microgramma';
     src: url(./fonts/Microgramma\ D\ Extended\ Bold.otf);
@@ -28,7 +27,7 @@ body {
 html {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -37,7 +36,7 @@ body {
     font-family: 'Futuraa';
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -149,6 +148,9 @@ body {
 
 
 /* NAVBAR STYLING */
+.anchor { 
+    padding-top: 90px; 
+}
 .mb-5 {
     margin-bottom: 0;
 }
@@ -157,14 +159,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 1920px; */
 }
 
 .nav-middle-section {
     background-color: #100D26;
     padding: 11px 20px 11px 30px;
-    /* width: 1546px; */
-    /* height: 94px; */
     gap: 30px;
     border: 1px solid rgba(1, 255, 133, 0.3);
     justify-content: inherit;
@@ -188,9 +187,9 @@ body {
 }
 
 /* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
-.nav-middle-section a:focus,
-.highlight-txt {
-    /* color: #FFFFFF; */
+
+.nav-middle-section a:focus, .highlight-txt {
+
     color: #01FF85;
     --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
@@ -220,7 +219,6 @@ body {
     height: 60px;
     background: #01FF85;
     border-bottom: 10px solid #0D6A08;
-    /* gap: 10px; */
     font-size: 16px;
     color: #100D26;
     text-transform: uppercase;
@@ -233,20 +231,15 @@ body {
     margin: 1.5rem;
 }
 
-/* Media Queries for Navbar */
-@media all and (min-width: 1400px) and (max-width: 1900px) {
-
-    .TFont-navbar,
-    .buttonTF,
-    .buttonTF2 {
-        font-size: smaller;
-        text-align: center;
-    }
-}
-
 /* End of Navbar styling */
 
 /* Hero banner Styling */
+#index-hero-section {
+    background-image: url("./media/Frame\ 918.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
 .hero-section-above {
     margin-bottom: 3rem;
 }
@@ -265,11 +258,17 @@ body {
 }
 
 .icons-container {
-    margin-top: 4rem;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .icons-list {
     margin: 2rem 0;
+}
+
+.p-index-icons {
+    width: 215px;
+    text-align: center;
 }
 
 /* Animation for astronaut */
@@ -294,12 +293,6 @@ body {
     margin: 3rem;
 }
 
-/* .new-grads-txt {
-    width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    margin-top: 2rem;
-} */
 /* End of New Grads */
 
 .testimonial-card {
@@ -542,7 +535,6 @@ include padding and margin */
 
 .btn-footer {
     filter: drop-shadow(0px 0px 12px #8b7e84) drop-shadow(0px 0px 12px #8b7e84);
-
     outline: 0;
     font-size: 1em;
     font-weight: 600;
@@ -577,4 +569,5 @@ include padding and margin */
         3px 3px 0 0 #f0f0df88,
         4px 4px 0 0 #f0f0df88,
         5px 5px 0 0 #f0f0df88;
-}
+   }
+

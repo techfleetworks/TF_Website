@@ -292,40 +292,65 @@ color: #FFFFFF;
 /* Our alumni logo area && Our partner logo area */
 /* Most of the Smartphones Mobiles [Portrait] */
 @media (min-width: 280px) and (max-width: 480px){
-    .alumni-logo{
-        text-align: center;
-        display: block;
-    }
-    .alumni-logo .row div{
+    #sm-display-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-bottom: 1em;
     }
-    .alumni-logo img{
-        width: 260px;
+    .sm-center-text{
+        text-align: center;
+    }
+    .sm-display-none{
+        display: none !important;
+    }
+    .hire-section{
+        display: grid !important;
+        gap: 0.5em;
+        justify-content: center;
     }
 }
 /*  Low Resolution Tablets, Mobiles [Landscape] */
 @media (min-width: 481px) and (max-width: 767px){
-    .alumni-logo{
-        text-align: center;
-        display: block;
-    }
-    .alumni-logo .row div{
+    #sm-display-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-bottom: 1em;
     }
-    .alumni-logo img{
-        width: 300px;
+    .sm-center-text{
+        text-align: center;
+    }
+    .sm-display-none{
+        display: none !important;
+    }
+    .hire-section{
+        display: grid !important;
+        grid-template-columns: 1fr;
     }
 }
 
 /* Our partner area */
 /* Our partner area */
 
-.partner-items ul li{
-    list-style-type: none;
-    padding-bottom: 10px;
+.partner-items ul li {
+    list-style: none;
+    padding: 10px 30px;
+    /* background-image: url(media/Group\ 354.png); */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    isolation: isolate;
+    position: relative;
 }
-.partner-items ul li img{
-    width: 50px;
+.partner-items ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid #01FF85;
+    position: absolute;
+    top: 13px;
+    left: -2px;
+    border-radius: 50%;
+    z-index: -1;
 }
 .square{
     width: 130px;
@@ -433,6 +458,9 @@ color: #100D26;
     text-decoration: none;
     color: #EEEEEE;
 }
+/* #footerDiv{
+    
+} */
 
 /* All four buttons on footer */
 .btn-footer{
@@ -500,7 +528,6 @@ color: #100D26;
       4px 4px 0 0 #f0f0df88,
       5px 5px 0 0 #f0f0df88;
   }
-
 
 
 

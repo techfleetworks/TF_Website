@@ -7,7 +7,7 @@
 
 
 import React from 'react'
-
+import Image from 'next/image'
 export default function bothsections() {
   return (
     <div>
@@ -19,7 +19,7 @@ export default function bothsections() {
              of UX and Product and Development from industry vets. Join a global community of aspiring Techies 
              supporting each other’s growth. 
           </p>
-          <img class="mobile-toggle" src="./media/set-your-path-group.png" alt="Set your path" />
+          <Image class="mobile-toggle" src="./media/set-your-path-group.png" alt="Set your path" />
           <img class="mobile-hidden hidden mb-5" src="./media/Space-path-mobile.png" alt="Set your path" />
           {/* <!-- image section for the apprenbticeshhip mission and freelancemission,  social activites, leadership mission, the real world --> */}
           <div class="text-center">
@@ -38,35 +38,35 @@ export default function bothsections() {
       <div id="index-table" class="">
           <div class="row ">
               <div class="col col-md-6 d-flex flex-column align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Agile Methods</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Lean UX</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Developer Collab</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Cross-functional Work</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Continuous Discovery</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Strategy and Ideation</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>Product Planning</p>
               </div>
               <div class="col col-md-6 d-flex flex-column  align-items-center">
-                  <img src="" alt="img here"/>
+                  <Image src="" alt="img here"/>
                   <p>UX/Product Operations</p>
               </div>
           </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 //need to import the navbar css from the navbar.scss file
 //concatenate the styles object varialbes with the string "classnames" refer to how css modules work in next.js
 // and needs to chance class to className
@@ -11,7 +12,7 @@ export default function navbar() {
        <nav class="sticky-top TFont-navbar navbar-section navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img class="nav-logo-img" src="./media/Tech Fleet Logo_black.png" alt="Tech Fleet logo" />
+            <Image class="nav-logo-img" src="./media/Tech Fleet Logo_black.png" alt="Tech Fleet logo" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -9,6 +9,7 @@
 
 
 import React from 'react'
+import Image from 'next/image'
 
 export default function inaction() {
   return (
@@ -17,8 +18,8 @@ export default function inaction() {
         <div id="livemissions-section" class="anchor">
         <div class="row">
             <div class="d-flex flex-row justify-content-between">
-            <img src="./media/nails.svg" alt=""/>
-            <img src="./media/nails.svg" alt=""/>
+            <Image src="./media/nails.svg" alt=""/>
+            <Image src="./media/nails.svg" alt=""/>
             </div>
         </div>
         <div  class="container d-flex flex-column">
@@ -34,7 +35,7 @@ export default function inaction() {
 
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">EARTH HERO MOBILE APP FEATURES</p>
-              <img src="/media/Frame940.jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame940.jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
@@ -45,7 +46,7 @@ export default function inaction() {
 
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">RUMINATE “FEEDBACK” PLATFORM APP</p>
-              <img src="/media/Frame 940 (1).jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame 940 (1).jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
@@ -58,7 +59,7 @@ export default function inaction() {
 
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">THE SERIOUS TYPE SOCIAL MEDIA APP</p>
-              <img src="/media/Frame 940 (2).jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame 940 (2).jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
@@ -69,7 +70,7 @@ export default function inaction() {
 
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">TECH FLEET’S “KADET WALLET”</p>
-              <img src="/media/Frame 940 (3).jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame 940 (3).jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2s">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
@@ -81,7 +82,7 @@ export default function inaction() {
           <h4>UP NEXT</h4>
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">INCLUSIVE</p>
-              <img src="/media/Frame 912.jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame 912.jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>
@@ -90,7 +91,7 @@ export default function inaction() {
 
           <div class="col-12 col-lg-6 d-flex flex-column align-items-center mb-5">
               <p class="mission-titles">INCLUSIVE</p>
-              <img src="/media/Frame 912 (1).jpg" alt=""  class="img-fluid "/>
+              <Image src="/media/Frame 912 (1).jpg" alt=""  class="img-fluid "/>
               <div class="d-flex flex-row align-items-start flex-wrap justify-content-between buttonTF2-group gap-2">
                   <button type="button" class="buttonTF2 mb-2">MISSION DETAILS</button>
                   <button type="button" class="buttonTF2 mb-2">CLIENT WEBSITE</button>

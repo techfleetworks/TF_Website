@@ -5,6 +5,8 @@
 
 
 import React from 'react'
+import Image from 'next/image'
+
 
 export default function calling() {
   return (
@@ -18,7 +20,7 @@ export default function calling() {
         </p>
 
 
-        <img src="/media/Group369.jpg" alt=""  class="img-fluid" style="max-height: 500px; max-width: 500px;"/>
+        <Image src="/media/Group369.jpg" alt=""  class="img-fluid" style="max-height: 500px; max-width: 500px;"/>
         <p>There are no projects to apply to right now. You can shadow the live projects listed below.</p>
 
         </div>

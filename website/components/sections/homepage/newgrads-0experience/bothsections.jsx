@@ -5,7 +5,7 @@
 //note that some things might not work (rare)and might need to use the react bootstrap components
 //use image and link element from next.js framework, refer to documentation.
 import React from 'react'
-
+import Image from 'next/image'
 
 export default function bothsections() {
   return (
@@ -22,7 +22,7 @@ export default function bothsections() {
           
           {/* <!-- is there a better way to make svg responsive? this is just a placeholder for now --> */}
         <div class="col-md-12 col-8 text-center">
-          <img src="./media/astronaut5.svg" alt="astronaut" class="img-fluid rotate astronaut-mobile" />
+          <Image src="./media/astronaut5.svg" alt="astronaut" class="img-fluid rotate astronaut-mobile" />
         </div>
       </div>
         
@@ -37,10 +37,10 @@ export default function bothsections() {
         {/* <!-- section for images. make them responsive. colum 6 and stack on smaller screen.--> */}
           <div class="row text-center justify-content-center">
             <div class="col-11 col-md-6">
-              <img src="./media/Discover 1.svg" alt="Dicover"  width="100%\9" class="img-fluid "/>
+              <Image src="./media/Discover 1.svg" alt="Dicover"  width="100%\9" class="img-fluid "/>
             </div>
             <div class="col-11 col-md-6">
-                <img src="./media/Frame919.jpg" alt="Zoom call"  width="100%\9" class="img-fluid "/>
+                <Image src="./media/Frame919.jpg" alt="Zoom call"  width="100%\9" class="img-fluid "/>
             </div>
             <div>
               <button type="button" class="buttonTF2 see-our-work">How it works</button>

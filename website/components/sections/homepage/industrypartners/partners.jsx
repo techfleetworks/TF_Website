@@ -6,7 +6,7 @@
 // use the next.js image element and link element. refer to next.js documentation. 
 
 
-
+import Image from 'next/image'
 import React from 'react'
 
 export default function partners() {
@@ -24,25 +24,25 @@ export default function partners() {
                 {/* <!-- First row for partners --> */}
                 <div class="row py-2">
                   <div class="col-12 col-md-4">
-                    <img src="./media/cf_logo_min_full 1.svg" alt="..." class="img-fluid"/>
+                    <Image src="./media/cf_logo_min_full 1.svg" alt="..." class="img-fluid"/>
                   </div>
                   <div class="col-12 col-md-4">
-                    <img src="./media/image2vector (1) 1.svg" alt="..." class="img-fluid"/>
+                    <Image src="./media/image2vector (1) 1.svg" alt="..." class="img-fluid"/>
                   </div>
                   <div class="col-12 col-md-4">
-                    <img src="./media/Group 365.svg" alt="..." class="img-fluid"/>
+                    <Image src="./media/Group 365.svg" alt="..." class="img-fluid"/>
                   </div>
                 </div>
                 {/* <!-- Second row for partners --> */}
                 <div class="row py-2">
                     <div class="col-12 col-md-4">
-                      <img src="./media/image2vector 1.svg" alt="..." class="img-fluid"/>
+                      <Image src="./media/image2vector 1.svg" alt="..." class="img-fluid"/>
                     </div>
                     <div class="col-12 col-md-4">
-                      <img src="./media/zel-flux-logo-horizontal (1) 1.svg" alt="..." class="img-fluid"/>
+                      <Image src="./media/zel-flux-logo-horizontal (1) 1.svg" alt="..." class="img-fluid"/>
                     </div>
                     <div class="col-12 col-md-4">
-                      <img src="./media/Logo.570508c7 1.svg" alt="..." class="img-fluid"/>
+                      <Image src="./media/Logo.570508c7 1.svg" alt="..." class="img-fluid"/>
                     </div>
                 </div>
                </div>

@@ -11,6 +11,7 @@ body{
     box-sizing: border-box;
 }
 
+/*  NEED TO IMPORT THE FONTS    */
 
 @font-face {
     font-family: 'Microgramma';
@@ -37,9 +38,9 @@ body{
     /* overflow-x: hidden; */
 }
 
-
-/* FONT STYLES FROM FIGMA FILE */
-/* i coppied and pasted, please make sure its correct for your section by veryfing with the actual figma design.*/
+/*
+ FONT STYLES FROM FIGMA FILE 
+ i coppied and pasted, please make sure its correct for your section by veryfing with the actual figma design.
 .TFont-navbar{
     font-family: 'Futura', sans-serif;
     font-size: 1.25rem;
@@ -111,10 +112,11 @@ color: #FFFFFF;
     line-height: 1.875rem;
     color: #FFFFFF;
 }
+*/
 
-
+/* // BUTTON STYLING */
 /* height needs to change responsive once we implement SASS into the project. */
-.buttonTF{
+/* .buttonTF{
   border: none;
     width: 100%;
     height: 100px;
@@ -141,10 +143,10 @@ color: #FFFFFF;
     min-width: 45%;
     flex-grow: 1;
     transition:all .3s ease-out; 
-}
-
-
-/* NAVBAR STYLING */
+} */ 
+   
+/* 
+ NAVBAR STYLING 
 .anchor { 
     padding-top: 90px; 
     width: 100%;
@@ -168,7 +170,7 @@ color: #FFFFFF;
     --bs-nav-link-color: #fff;
     margin: .5rem;
 }
-/* Permanantly styles Home link as green highlight - needs to change */
+ Permanantly styles Home link as green highlight - needs to change 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
@@ -177,7 +179,7 @@ color: #FFFFFF;
 .nav-middle-section a:hover {
     color: #01FF85;
 }
-/* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
+ Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing
 .nav-middle-section a:focus, .highlight-txt {
     color: #01FF85;
         --bs-navbar-active-color: #01FF85;
@@ -188,17 +190,17 @@ color: #FFFFFF;
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/* Highlights green when the link is clicked */
+ Highlights green when the link is clicked 
 .nav-middle-section a:active {
     color: #FFFFFF;
       --bs-navbar-active-color: #01FF85;
     text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
     text-decoration: underline;
 }
-/* Visited color set to #FFF - this can be updated later*/
-/* .nav-middle-section a:visited {
+ Visited color set to #FFF - this can be updated later
+ .nav-middle-section a:visited {
     color: #fff;
-} */
+} 
 
 .nav-btn {
     min-width: 178px;
@@ -215,7 +217,8 @@ color: #FFFFFF;
     width: 24px;
     margin: 1.5rem;
 }
-/* End of Navbar styling */
+End of Navbar styling */
+
 
 /* Hero banner Styling */
 #index-hero-section {

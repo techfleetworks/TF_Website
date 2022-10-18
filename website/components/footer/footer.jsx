@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 export default function footer() {
   return (
@@ -8,14 +9,14 @@ export default function footer() {
     <div className="col-12 col-md-4">
       <ul className="footer-item01">
         <li className="mb-4 all-shadow">
-          <a href="#"><img src="media/send.png" alt="send-icon" width="20px" className="all-shadow" style="margin-right: 10px;"/>info@techfleet.org</a>
+          <a href="#"><Image src="media/send.png" alt="send-icon" width="20px" className="all-shadow" style="margin-right: 10px;"/>info@techfleet.org</a>
         </li>
         <li className="d-flex">
-          <img src="media/heart.png" alt="heart-icon" width="20px" className="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;"/>
+          <Image src="media/heart.png" alt="heart-icon" width="20px" className="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;"/>
           <p>Created and maintained with love by Tech Fleet community DAO contributors.</p>
         </li>
         <li className="d-flex">
-          <img src="media/copyright-symbol.png" alt="copy right symbol"width="20px" className="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;"/>
+          <Image src="media/copyright-symbol.png" alt="copy right symbol"width="20px" className="all-shadow" style="margin-right: 10px; margin-top: 7px; height: 20px;"/>
           <p>Copyright 2022 Tech Fleet community DAO</p>
         </li>
         <li className="my-4">Tech Fleet is planning on incorporating as a DAO to better serve our members globally.</li>
@@ -42,10 +43,10 @@ export default function footer() {
       <button className="btn-footer">VIEW WEB CALENDAR</button>
       <button className="btn-footer">TECH FLEET HANDBOOK</button>
       <div className="d-flex justify-content-between my-4 all-shadow">
-        <a href="#" className="mx-2"><img src="media/Group.png" alt="group01" width="50px"/></a>
-        <a href="#" className="mx-2"><img src="media/Group 280.png" alt="group02" width="50px"/></a>
-        <a href="#" className="mx-2"><img src="media/Group 281.png" alt="group03" width="50px"/></a>
-        <a href="#" className="mx-2"><img src="media/Group 279.png" alt="group04" width="50px"/></a>
+        <a href="#" className="mx-2"><Image src="media/Group.png" alt="group01" width="50px"/></a>
+        <a href="#" className="mx-2"><Image src="media/Group 280.png" alt="group02" width="50px"/></a>
+        <a href="#" className="mx-2"><Image src="media/Group 281.png" alt="group03" width="50px"/></a>
+        <a href="#" className="mx-2"><Image src="media/Group 279.png" alt="group04" width="50px"/></a>
       </div>
     </div>
   </div>

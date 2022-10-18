@@ -12,7 +12,7 @@ export default function navbar() {
        <nav className="sticky-top TFont-navbar navbar-section navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <Image  className="nav-logo-img" src="./media/Tech Fleet Logo_black.png" alt="Tech Fleet logo" />
+            <Image width={100} height={100} className="nav-logo-img" src="/media/Tech Fleet Logo_black.png" alt="Tech Fleet logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

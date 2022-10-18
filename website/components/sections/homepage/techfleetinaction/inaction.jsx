@@ -18,8 +18,8 @@ export default function inaction() {
         <div id="livemissions-section" class="anchor">
         <div className="row">
             <div className="d-flex flex-row justify-content-between">
-            <Image src="./media/nails.svg" alt=""/>
-            <Image src="./media/nails.svg" alt=""/>
+            <Image src="/media/nails.svg" alt=""/>
+            <Image src="/media/nails.svg" alt=""/>
             </div>
         </div>
         <div  className="container d-flex flex-column">

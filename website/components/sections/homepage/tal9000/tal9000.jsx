@@ -12,7 +12,7 @@ export default function tal9000() {
         <div className="row">
           <h4 className="text-center">the TAL 9000 is here to help</h4>
           <div className="col-12 col-lg-3">
-              <Image src="./media/redbutton3x.jpg" alt="" className="img-fluid"/>
+              <Image src="/media/redbutton3x.jpg" alt="" className="img-fluid"/>
 
           </div>
 
@@ -24,8 +24,8 @@ export default function tal9000() {
 
                       <div className="row">
                         <div className="d-flex flex-row justify-content-between">
-                          <Image src="./media/nails.svg" alt=""/>
-                          <Image src="./media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
                         </div>
                       </div>
 
@@ -45,8 +45,8 @@ export default function tal9000() {
 
                       <div className="row">
                         <div className="d-flex flex-row justify-content-between">
-                          <Image src="./media/nails.svg" alt=""/>
-                          <Image src="./media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
                         </div>
                       </div>
 
@@ -59,8 +59,8 @@ export default function tal9000() {
                       <div>
                         <div className="row">
                           <div className="d-flex flex-row justify-content-between">
-                            <Image src="./media/nails.svg" alt=""/>
-                            <Image src="./media/nails.svg" alt=""/>
+                            <Image src="/media/nails.svg" alt=""/>
+                            <Image src="/media/nails.svg" alt=""/>
                           </div>
                         </div>
                     
@@ -70,10 +70,10 @@ export default function tal9000() {
                         <div className="d-flex flex-column  align-items-center">
                           <h5 className="text-black text-center mb-4">social media</h5>
                               <div className=" d-flex flex-row flex-wrap justify-content-center" >
-                                <div className="col-6  d-flex justify-content-center"> <Image src="./media/slack (2).svg" alt="" className="  p-4 square mb-5 " /> </div>
-                                <div className="col-6  d-flex justify-content-center"> <Image src="./media/Group 280 (1).svg" alt="" className="  p-4 square " /> </div>
-                                <div className="col-6  d-flex justify-content-center"> <Image src="./media/Group 276.svg" alt="" className=" p-4 square " /> </div>
-                                <div className="col-6  d-flex justify-content-center"> <Image src="./media/Group 279 (1).svg" alt="" className=" p-4 square " /> </div>
+                                <div className="col-6  d-flex justify-content-center"> <Image src="/media/slack (2).svg" alt="" className="  p-4 square mb-5 " /> </div>
+                                <div className="col-6  d-flex justify-content-center"> <Image src="/media/Group 280 (1).svg" alt="" className="  p-4 square " /> </div>
+                                <div className="col-6  d-flex justify-content-center"> <Image src="/media/Group 276.svg" alt="" className=" p-4 square " /> </div>
+                                <div className="col-6  d-flex justify-content-center"> <Image src="/media/Group 279 (1).svg" alt="" className=" p-4 square " /> </div>
                                 
                               
                                 </div>
@@ -87,8 +87,8 @@ export default function tal9000() {
           
                       <div className="">
                         <div className="d-flex flex-row justify-content-between">
-                          <Image src="./media/nails.svg" alt=""/>
-                          <Image src="./media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
+                          <Image src="/media/nails.svg" alt=""/>
                         </div>
                       </div>
                     

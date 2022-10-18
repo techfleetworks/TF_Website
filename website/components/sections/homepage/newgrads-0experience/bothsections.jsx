@@ -22,7 +22,7 @@ export default function bothsections() {
           
           {/* <!-- is there a better way to make svg responsive? this is just a placeholder for now --> */}
         <div className="col-md-12 col-8 text-center">
-          <Image src="./media/astronaut5.svg" alt="astronaut" className="img-fluid rotate astronaut-mobile" />
+          <Image src="/media/astronaut5.svg" alt="astronaut" className="img-fluid rotate astronaut-mobile" />
         </div>
       </div>
         
@@ -37,10 +37,10 @@ export default function bothsections() {
         {/* <!-- section for images. make them responsive. colum 6 and stack on smaller screen.--> */}
           <div className="row text-center justify-content-center">
             <div className="col-11 col-md-6">
-              <Image src="./media/Discover 1.svg" alt="Dicover"  width="100%\9" className="img-fluid "/>
+              <Image src="/media/Discover 1.svg" alt="Dicover"  width="100%\9" className="img-fluid "/>
             </div>
             <div className="col-11 col-md-6">
-                <Image src="./media/Frame919.jpg" alt="Zoom call"  width="100%\9" className="img-fluid "/>
+                <Image src="/media/Frame919.jpg" alt="Zoom call"  width="100%\9" className="img-fluid "/>
             </div>
             <div>
               <button type="button" className="buttonTF2 see-our-work">How it works</button>

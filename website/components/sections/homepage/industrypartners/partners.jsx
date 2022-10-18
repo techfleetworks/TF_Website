@@ -24,25 +24,25 @@ export default function partners() {
                 {/* <!-- First row for partners --> */}
                 <div className="row py-2">
                   <div className="col-12 col-md-4">
-                    <Image src="./media/cf_logo_min_full 1.svg" alt="..." className="img-fluid"/>
+                    <Image src="/media/cf_logo_min_full 1.svg" alt="..." className="img-fluid"/>
                   </div>
                   <div className="col-12 col-md-4">
-                    <Image src="./media/image2vector (1) 1.svg" alt="..." className="img-fluid"/>
+                    <Image src="/media/image2vector (1) 1.svg" alt="..." className="img-fluid"/>
                   </div>
                   <div className="col-12 col-md-4">
-                    <Image src="./media/Group 365.svg" alt="..." className="img-fluid"/>
+                    <Image src="/media/Group 365.svg" alt="..." className="img-fluid"/>
                   </div>
                 </div>
                 {/* <!-- Second row for partners --> */}
                 <div className="row py-2">
                     <div className="col-12 col-md-4">
-                      <Image src="./media/image2vector 1.svg" alt="..." className="img-fluid"/>
+                      <Image src="/media/image2vector 1.svg" alt="..." className="img-fluid"/>
                     </div>
                     <div className="col-12 col-md-4">
-                      <Image src="./media/zel-flux-logo-horizontal (1) 1.svg" alt="..." className="img-fluid"/>
+                      <Image src="/media/zel-flux-logo-horizontal (1) 1.svg" alt="..." className="img-fluid"/>
                     </div>
                     <div className="col-12 col-md-4">
-                      <Image src="./media/Logo.570508c7 1.svg" alt="..." className="img-fluid"/>
+                      <Image src="/media/Logo.570508c7 1.svg" alt="..." className="img-fluid"/>
                     </div>
                 </div>
                </div>

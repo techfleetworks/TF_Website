@@ -15,9 +15,9 @@ export default function alumni() {
             </p>
 
             <div className="hire-section d-none">
-              <Image src="media/Frame 1046.png" alt=""/>
-              <Image src="media/Frame 1045.png" alt=""/>
-              <Image src="media/Frame 1047.png" alt=""/>
+              <Image width={100} height={100} src="media/Frame 1046.png" alt=""/>
+              <Image width={100} height={100} src="media/Frame 1045.png" alt=""/>
+              <Image width={100} height={100} src="media/Frame 1047.png" alt=""/>
               <p className="mt-3 text-center TFont-p-24px">Hired by</p>
             </div>
 
@@ -26,38 +26,38 @@ export default function alumni() {
               {/* <!-- First row  --> */}
               <div className="row py-2" id="sm-display-grid">
                 <div className="col-12 col-md-3">
-                  <Image src="/media/State_Farm_logo 1.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/State_Farm_logo 1.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-3">
-                  <Image src="/media/Group 113.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Group 113.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-3">
-                  <Image src="./media/Group 373.svg" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Group 373.svg" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-3">
-                  <Image src="./media/Meta_Platforms_Inc._logo 1.svg" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Meta_Platforms_Inc._logo 1.svg" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
               </div>
               </div>
               {/* <!-- Second row --> */}
               <div className="row py-2" id="sm-display-grid">
                 <div className="col-12 col-md-2">
-                  <Image src="/media/Group 339.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Group 339.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-2">
-                  <Image src="/media/Group 337.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Group 337.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div class="col-12 col-md-2">
-                  <Image src="/media/Group 338.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Group 338.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-2">
-                  <Image src="/media/cox-auto-2 1.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/cox-auto-2 1.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-2">
-                  <Image src="/media/FareHarbor_BlackTicket_CutOut 1.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/FareHarbor_BlackTicket_CutOut 1.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
                 <div className="col-12 col-md-2">
-                  <Image src="/media/Charles_Schwab_Corporation_logo 1.png" alt="" className="mx-4 my-2 img-fluid"/>
+                  <Image width={100} height={100} src="/media/Charles_Schwab_Corporation_logo 1.png" alt="" className="mx-4 my-2 img-fluid"/>
                 </div>
               </div>
           </div>
@@ -68,7 +68,7 @@ export default function alumni() {
               {/* <!-- First row --> */}
               <div className="testimonial-card">
                 <div className="d-flex flex-column">
-                  <Image src="./media/David Headshot 300.jpg" alt="David" className="img-fluid img-headshot"/>
+                  <Image width={100} height={100} src="/media/David Headshot 300.jpg" alt="David" className="img-fluid img-headshot"/>
                   <h4 className="sm-center-text mt-2">David</h4>
                   <h5 className="sm-center-text">UX Researcher, Cox Automotive</h5>
                   <p>
@@ -81,7 +81,7 @@ export default function alumni() {
 
               <div className="testimonial-card">
                 <div className="d-flex flex-column">
-                  <Image src="./media/Ashley Headshot 300.jpg" alt="Ashley" />
+                  <Image width={100} height={100} src="/media/Ashley Headshot 300.jpg" alt="Ashley" />
 
 
 
@@ -101,7 +101,7 @@ export default function alumni() {
 
               <div className="testimonial-card">
                 <div className="d-flex flex-column">
-                  <Image src="./media/Helen Headshot 300.jpg" alt="Helen"/>
+                  <Image width={100} height={100} src="/media/Helen Headshot 300.jpg" alt="Helen"/>
 
 
                   <h4 className="sm-center-text mt-2">Helen</h4>
@@ -118,7 +118,7 @@ export default function alumni() {
                 
               <div className="testimonial-card">
                 <div className="d-flex flex-column">
-                    <Image src="./media/Teri Headshot 300.jpg" alt="Ashley" className=""/>
+                    <Image width={100} height={100} src="/media/Teri Headshot 300.jpg" alt="Ashley" className=""/>
 
                     <h4 className="sm-center-text mt-2">Teri</h4>
                     <h5 className="sm-center-text">Lead UX Designer, Mindgrub</h5>
@@ -131,7 +131,7 @@ export default function alumni() {
               
               <div className="testimonial-card">
                 <div className="d-flex flex-column">
-                  <Image src="./media/Andrew Headshot 300.jpg" alt="Helen" className="img-fluid img-headshot"/>
+                  <Image width={100} height={100} src="/media/Andrew Headshot 300.jpg" alt="Helen" className="img-fluid img-headshot"/>
 
 
 

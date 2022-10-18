@@ -19,8 +19,8 @@ export default function bothsections() {
              of UX and Product and Development from industry vets. Join a global community of aspiring Techies 
              supporting each other’s growth. 
           </p>
-          <Image className="mobile-toggle" src="./media/set-your-path-group.png" alt="Set your path" />
-          <img className="mobile-hidden hidden mb-5" src="./media/Space-path-mobile.png" alt="Set your path" />
+          <Image className="mobile-toggle" src="/media/set-your-path-group.png" alt="Set your path" />
+          <img className="mobile-hidden hidden mb-5" src="/media/Space-path-mobile.png" alt="Set your path" />
           {/* <!-- image section for the apprenbticeshhip mission and freelancemission,  social activites, leadership mission, the real world --> */}
           <div className="text-center">
             <button type="button" className="buttonTF2 see-our-work">How it works</button>

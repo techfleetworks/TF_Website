@@ -109,7 +109,7 @@ export default function alumni() {
                   <p>
                   `&quot;`The [job] interview process involved conducting a mock usability study.I am convinced it was my performance
                     that secured me the role. I know, 100% <strong>without [my Tech Fleet] experience prepping for and moderating
-                    usability test, i wouldn't have been as prepred</strong>.`&quot;`
+                    usability test, i wouldn`&apos;`t have been as prepred</strong>.`&quot;`
                   </p>
                 </div>
 

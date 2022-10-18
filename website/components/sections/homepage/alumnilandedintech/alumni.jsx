@@ -72,9 +72,9 @@ export default function alumni() {
                   <h4 className="sm-center-text mt-2">David</h4>
                   <h5 className="sm-center-text">UX Researcher, Cox Automotive</h5>
                   <p>
-                    “My Tech Fleet experience wasabsolutely critical...in <strong>having abase knowledge of UX teomsand research processes</strong>
+                  `&quot;`My Tech Fleet experience wasabsolutely critical...in <strong>having abase knowledge of UX teomsand research processes</strong>
                     to workfrom. My future team was highlyimpressed with my Tech Fleet storiesand it definitely helped me get myfirst 
-                    full time job in UX. It completelychanged my life and career."
+                    full time job in UX. It completelychanged my life and career.`&quot;`
                   </p>
                 </div>
               </div>
@@ -90,10 +90,10 @@ export default function alumni() {
 
                   
                   <p>
-                    "One of my goals was to get a job within3 months after graduating from my UXBootcamp...after my first 
-                    job applicationsprint, I didn't know if I could make ithappen, I am absolutely positive that <strong>the real 
+                  `&quot;`One of my goals was to get a job within3 months after graduating from my UXBootcamp...after my first 
+                    job applicationsprint, I didn`&quot;`t know if I could make ithappen, I am absolutely positive that <strong>the real 
                     world experience I had withTech Fleet made me standout</strong> within osea of applicants to reach my goal.Transitioning 
-                    to UX design is socompetitive and having opportunities toget those real world projects is what we all crave and need."
+                    to UX design is socompetitive and having opportunities toget those real world projects is what we all crave and need.`&quot;`
                   </p>
                 </div>
 
@@ -107,9 +107,9 @@ export default function alumni() {
                   <h4 className="sm-center-text mt-2">Helen</h4>
                   <h5 className="sm-center-text">UX Researcher, AnswerLab</h5>
                   <p>
-                    "The [job] interview process involved conducting a mock usability study.I am convinced it was my performance
+                  `&quot;`The [job] interview process involved conducting a mock usability study.I am convinced it was my performance
                     that secured me the role. I know, 100% <strong>without [my Tech Fleet] experience prepping for and moderating
-                    usability test, i wouldn't have been as prepred</strong>."
+                    usability test, i wouldn't have been as prepred</strong>.`&quot;`
                   </p>
                 </div>
 
@@ -123,8 +123,8 @@ export default function alumni() {
                     <h4 className="sm-center-text mt-2">Teri</h4>
                     <h5 className="sm-center-text">Lead UX Designer, Mindgrub</h5>
                     <p>
-                      "Tech Fleet has given me the <strong>in-depth start-to-finish UX and agile project experience</strong> that i 
-                      seriously needed. It built up my knowledge, my portfolio, and my confidence."
+                    `&quot;`Tech Fleet has given me the <strong>in-depth start-to-finish UX and agile project experience</strong> that i 
+                      seriously needed. It built up my knowledge, my portfolio, and my confidence.`&quot;`
                     </p>
                 </div>
               </div>
@@ -138,9 +138,9 @@ export default function alumni() {
                   <h4 className="sm-center-text mt-2">Andrew</h4>
                   <h5 className="sm-center-text">Principal UX Researcher, Think</h5>
                   <p>
-                    "I know the challenge of getting that first UX job can seem insurmountable atimes...
+                  `&quot;`I know the challenge of getting that first UX job can seem insurmountable atimes...
                      communities like <strong>Tech Fleet can be a springboard for you and your career.</strong> Not only do you get a
-                     chance to work on real tangible projects, but you also have an amazing community of people that want to see everyone thrive."
+                     chance to work on real tangible projects, but you also have an amazing community of people that want to see everyone thrive.`&quot;`
                   </p>
                 </div>
 

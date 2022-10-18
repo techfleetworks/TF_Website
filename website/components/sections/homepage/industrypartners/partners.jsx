@@ -16,8 +16,8 @@ export default function partners() {
             <div id="partners" className="anchor container mb-5  d-flex flex-column sm-display-none">
               <h2 className="text-center TFont-h2">Hey industry partners</h2>
               <p className="mb-5 text-center TFont-p-24px center-p-w-700">
-                The world can help aid us in our mission in many ways. Contact us to talk about how you'd like to contribute to 
-                Tech Fleet's success.
+                The world can help aid us in our mission in many ways. Contact us to talk about how you`&quot;`d like to contribute to 
+                Tech Fleet`&quot;`s success.
               </p>
               <h4 className="text-center mb-4">Our partners today:</h4>
               <div className="alumni-logo">
@@ -60,7 +60,7 @@ export default function partners() {
                 <ul className="mb-5 TFont-p-16px center-p-w-700">
                     <li>Provide on-demand team building for your product team</li>
                     <li>Offer your product or service to our members</li>
-                    <li>Whatever you can think of to help aid in each others' mission together</li>
+                    <li>Whatever you can think of to help aid in each others`&quot;` mission together</li>
                 </ul>
             </div>
           </div>

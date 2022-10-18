@@ -1,0 +1,34 @@
+
+/* BUTTON STYLING */
+/* height needs to change responsive once we implement SASS into the project. */
+
+//refer to the card in notion for instructions on how to approach this task.
+
+.buttonTF{
+    border: none;
+      width: 100%;
+      height: 100px;
+     box-shadow: 0px 0px 66.8304px #9F8E8E, 0px 0px 38.1888px #9F8E8E, 0px 0px 22.2768px #9F8E8E, 0px 0px 11.1384px #9F8E8E, 0px 0px 3.1824px #9F8E8E, 0px 0px 1.5912px #9F8E8E;
+     border-bottom: 10px solid #80823A;
+     font-family: 'Microgramma';
+     transition:all .3s ease-out; 
+  
+  }
+  
+  .buttonTF2{
+      font-family: 'Microgramma';
+      height: 94px;
+      box-shadow: 0px 0px 66.8304px #329C2B,
+      0px 0px 38.1888px #329C2B,
+       0px 0px 22.2768px #329C2B,
+       0px 0px 11.1384px #329C2B,
+       0px 0px 3.1824px #329C2B,
+       0px 0px 1.5912px #329C2B;
+      background-color:  #01FF85;
+      border: 1px solid #01FF85;
+      padding: 30px 40px;
+      font-size: 20px;
+      min-width: 45%;
+      flex-grow: 1;
+      transition:all .3s ease-out; 
+  }

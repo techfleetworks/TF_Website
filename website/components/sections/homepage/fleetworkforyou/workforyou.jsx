@@ -8,19 +8,19 @@ import React from 'react'
 export default function workforyou() {
   return (
     <div>
-        <div id="hire-us" class="anchor container d-flex flex-column">
-            <h2 class="TFont-h2 text-white text-center">Let the Fleet work for you</h2>
-            <p class="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
+        <div id="hire-us" className="anchor container d-flex flex-column">
+            <h2 className="TFont-h2 text-white text-center">Let the Fleet work for you</h2>
+            <p className="mb-5 TFont-p-24px text-black center-p-w-700 text-white">Whether you’re a company or startup, for-profit or nonprofit, we offer services to help you accomplish your 
             business goals. We offer pro bono services for nonprofits. We’ll work for tokens or equity. By being our client you’re 
             helping aid in our mission to provide equal access to Tech.
             </p>
 
 
-            <div class="row">
-            <div class="col col-md-6">
+            <div className="row">
+            <div className="col col-md-6">
 
             </div>
-            <div class="col col-md-6">
+            <div className="col col-md-6">
                 <h4>We can help you</h4>
                 <ul>
                     <li>launch a new idea from conception</li>
@@ -33,7 +33,7 @@ export default function workforyou() {
                 </ul>
             </div>
             </div>
-                <button type="button" class="btn btn-success">Learn about us</button>
+                <button type="button" className="btn btn-success">Learn about us</button>
 
         </div>
     </div>

@@ -6,9 +6,9 @@ $secondary-color: #01FF85
 
 body{
     background-color: #a3a2a2;
-    background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
+    /* background: linear-gradient(148.76deg, #0B1B5A -4.78%, #07123F 36.09%, #0C0F1B 76.11%);
     color: #FFFFFF;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 

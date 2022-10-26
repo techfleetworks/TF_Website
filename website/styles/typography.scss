@@ -1,0 +1,161 @@
+// create the typography classes based on type-family, type-weight, and type-size.
+
+// create color classes
+// create background color classes.
+
+// create padding and margin classes based on figma file, but import them using the variables, that way
+// similar to what bootstrap does, it has scale from 1-4
+
+// TODO
+// TRANSFER THE NAVBAR CSS INTO ITS RESPECTIVE FOLDER -> components/navbar/navbar.scss
+
+
+/* FONT STYLES FROM FIGMA FILE */
+/* i coppied and pasted, please make sure its correct for your section by veryfing with the actual figma design.*/
+.TFont-navbar{
+    font-family: 'Futura', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-navbar-active{
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 24.4944px #049A52, 0px 0px 13.9968px #049A52, 0px 0px 8.1648px #049A52, 0px 0px 4.0824px #049A52, 0px 0px 1.1664px #049A52, 0px 0px 0.5832px #049A52;
+}
+
+.TFont-h1{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.3rem;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-h2{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-h3{
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.TFont-p-20px{
+font-family: 'Inter', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 1.5rem;
+text-align: center;
+letter-spacing: 0.03rem;
+color: #FFFFFF;
+}
+
+.TFont-p-24px{
+    font-family: 'Futura', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+
+.TFont-p-16px{
+    font-family: 'Futura', sans-serif;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: #FFFFFF;
+}
+
+
+
+/* NAVBAR STYLING */
+//this is what youll move to the navbar sass file
+.anchor { 
+    padding-top: 90px; 
+    width: 100%;
+}
+.mb-5 {
+    margin-bottom: 0;
+}
+.navbar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-middle-section {
+    background-color: #100D26;
+    padding: 11px 20px 11px 30px;
+    gap: 30px;
+    border: 1px solid rgba(1, 255, 133, 0.3);
+    justify-content: inherit;
+}
+.nav-middle-section li {
+    --bs-nav-link-color: #fff;
+    margin: .5rem;
+}
+/* Permanantly styles Home link as green highlight - needs to change */
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.nav-middle-section a:hover {
+    color: #01FF85;
+}
+/* Adds green highlight to selected nav-link - keeps the selected link highlighted instead of disappearing*/
+.nav-middle-section a:focus, .highlight-txt {
+    color: #01FF85;
+        --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+.highlight-txt {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Highlights green when the link is clicked */
+.nav-middle-section a:active {
+    color: #FFFFFF;
+      --bs-navbar-active-color: #01FF85;
+    text-shadow: 0px 0px 24.4944px #049a52, 0px 0px 13.9968px #049a52, 0px 0px 8.1648px #049a52, 0px 0px 4.0824px #049a52, 0px 0px 1.1664px #049a52, 0px 0px 0.5832px #049a52;
+    text-decoration: underline;
+}
+/* Visited color set to #FFF - this can be updated later*/
+/* .nav-middle-section a:visited {
+    color: #fff;
+} */
+
+.nav-btn {
+    min-width: 178px;
+    height: 60px;
+    background: #01FF85;
+    border-bottom: 10px solid #0D6A08;
+    font-size: 16px;
+    color: #100D26;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    line-height: 10px;
+}
+.icon-styles {
+    width: 24px;
+    margin: 1.5rem;
+}
+/* End of Navbar styling */

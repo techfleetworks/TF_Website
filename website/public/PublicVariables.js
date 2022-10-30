@@ -31,7 +31,11 @@ let siteContent = {
 
   // SITE IMAGES AS VARIABLES 
   sectionImages: {
-    astronaut: "/assets/astronaut5.svg"
+    astronaut: "/assets/astronaut5.svg",
+    discover: "/assets/Discover 1.svg",
+    zoomCall: "/assets/Frame919.jpg",
+    path: "/assets/set-your-path-group.png",
+    learningGrid: "/assets/learning-grid.png",
   }
 }
 

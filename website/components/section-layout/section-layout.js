@@ -1,19 +1,20 @@
-import NavbarLayout from "../navbar/navbar"
 import Image from 'next/image'
-import placeHolder from '../../public/assets/copyright-symbol.png'
+import styles from '../../styles/Home.module.css';
 
-export default function SectionLayout({ children, pageProps }) {
+export default function SectionLayout({ title, subtitle, img }) {
   return (
     <>
-      <h1>This is the section title</h1>
-      <main>{children}</main>
+      <div className={styles.container}>
+        <h1>{title}</h1>
+     
+      <p className={styles.grid}>{subtitle}</p>
       <Image
-        src={placeHolder}
-        width={200}
-        height={200}
-        alt="Copyright"
+        src={img}
+        width={800}
+        height={400}
+        alt={title}
       />
-      <div>This is the section footer</div>
+      </div>
     </>
   )
 }

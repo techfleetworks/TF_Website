@@ -3,6 +3,7 @@ import Image from 'next/image';
 import SectionLayout from '../components/section-layout/section-layout';
 import styles from '../styles/Home.module.css';
 import siteContent from '../public/PublicVariables';
+import DoubleContentLayout from '../components/section-layout/double-content-layout';
 
 export default function Home() {
   const Titles = siteContent.sectionTitles;
@@ -16,12 +17,15 @@ export default function Home() {
           subtitle={Subtitles.subtitle1}
           img={SectionImg.astronaut}
         ></SectionLayout>
-        <SectionLayout 
+        <DoubleContentLayout 
           title={Titles.title2}
-          subtitle={Subtitles.subtitle2}></SectionLayout>
+          subtitle={Subtitles.subtitle2}
+          item1={SectionImg.discover}
+          item2={SectionImg.zoomCall}></DoubleContentLayout>
         <SectionLayout 
           title={Titles.title3}
-          subtitle={Subtitles.subtitle3}></SectionLayout>
+          subtitle={Subtitles.subtitle3}
+          img={SectionImg.path}></SectionLayout>
         <SectionLayout 
           title={Titles.title4}
           subtitle={Subtitles.subtitle4}></SectionLayout>

@@ -1,3 +1,18 @@
+// Public Variables to handle site content
+//
+// Add strings to whichever object OR declare new variable of arrays or objects 
+/*
+EX: let projectsCards: {
+  TFWebsite: {
+    name: "Tech Fleet Website",
+    details: "Creating Tech Fleet website.",
+    status: "In progress"
+  }
+}
+*/
+//
+//
+
 let siteContent = {
   // SECTION TITLES
   sectionTitles: {
@@ -29,7 +44,7 @@ let siteContent = {
     subtitle14: "Tech Fleet Community DAO is an open source community on a mission to build a global Tech talent pipeline in Web2 and Web3. Tech Fleet is incorporated as a DAO LLC in Wyoming, USA and serves the world."
   },
 
-  // SITE IMAGES AS VARIABLES 
+  // SITE IMAGES AS VARIABLES - add as needed in /assets folder
   sectionImages: {
     astronaut: "/assets/astronaut5.svg",
     discover: "/assets/Discover 1.svg",

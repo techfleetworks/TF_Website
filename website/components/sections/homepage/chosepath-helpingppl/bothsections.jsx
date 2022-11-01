@@ -1,5 +1,5 @@
 import React from "react";
-import SectionLayout from "../../../layouts/section-layout";
+import SectionLayout from "../../../section-layouts/single-content-layout";
 import PublicVariables from '../../../../pages/api/publicVariables.json';
 
 export default function bothsections() {
@@ -8,7 +8,9 @@ export default function bothsections() {
             <SectionLayout 
                 title={PublicVariables.sectionTitles.title3} 
                 subtitle={PublicVariables.sectionSubtitles.subtitle5}
-                img={PublicVariables.sectionImages.path}></SectionLayout>
+                img={PublicVariables.sectionImages.path}
+                width={width}
+                height={height}></SectionLayout>
         </>
     )
 }

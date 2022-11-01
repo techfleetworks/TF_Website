@@ -2,7 +2,7 @@ import React from "react";
 import Image from 'next/image';
 // import styles from './layout.module.scss';
 
-export default function SectionLayout({ title, subtitle, img }) {
+export default function SectionLayout({ title, subtitle, img, width, height }) {
   return (
     <>
       <div className={styles.container}>

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image';
 import styles from './layout.module.scss';
 
 export default function SingleContentLayout({ title, subtitle, children }) {
@@ -14,7 +13,3 @@ export default function SingleContentLayout({ title, subtitle, children }) {
     </>
   )
 }
-
-
-// FIX RENDERING ISSUE IN SECTIONS LAYOUT AS THEY'RE IMPORTED 
-// DOUBLE CHECK STYLYING 

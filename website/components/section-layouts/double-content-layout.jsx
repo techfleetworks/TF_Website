@@ -1,13 +1,14 @@
 import Image from 'next/image'
-// import styles from './layout.module.scss';
+import styles from './layout.module.scss';
 
-export default function DoubleContentLayout({ item1, item2, title, subtitle }) {
+export default function DoubleContentLayout({ item1, item2, title, subtitle, itemWidth, itemHeight }) {
   return (
     <>
-    <div className={styles.container}>
+    <div className={styles.main}>
         <h1>{title}</h1>
      
-      <p className={styles.grid}>{subtitle}</p>
+      <p className={styles.subtitle}>{subtitle}</p>
+      <div className={styles.grid}>
       <Image
         src={item1}
         width={400}
@@ -16,10 +17,12 @@ export default function DoubleContentLayout({ item1, item2, title, subtitle }) {
       />
       <Image
         src={item2}
-        width={500}
-        height={300}
+        width={itemWidth}
+        height={itemHeight}
         alt={title}
       />
+      </div>
+      
       </div>
     </>
   )

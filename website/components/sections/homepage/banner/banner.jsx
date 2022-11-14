@@ -61,7 +61,7 @@ export default function banner() {
         <div className="col-md-2 col-sm-4 icons-container icons-list">
           <div className="TFont-p-20px">
               <p className="p-index-icons">Community product incubator</p>
-              <Image width={100} height={100} src="/media/astronaut 6.svg" />
+              {/* <Image width={100} height={100} src="/media/astronaut 6.svg" /> */}
           </div>
         </div>
       </div>

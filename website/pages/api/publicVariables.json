@@ -1,7 +1,7 @@
 {
   "sectionTitles": {
-    "title1": "Feeling lost in Space breaking into Tech?",
-    "title2": "You don't need experience to blast off",
+    "title1": "New grads and career transitioners: feeling lost in Space breaking into Tech?",
+    "title2": "You need 0 experience to blast off with Tech Fleet",
     "title3": "Choose your path to the Real World",
     "title4": "Learning by doing since 2020",
     "title5": "Our alumni have landed in Tech",
@@ -26,10 +26,10 @@
     "subtitle14": "Tech Fleet Community DAO is an open source community on a mission to build a global Tech talent pipeline in Web2 and Web3. Tech Fleet is incorporated as a DAO LLC in Wyoming, USA and serves the world."
   },
   "sectionImages": {
-    "astronaut": "/assets/astronaut5.svg",
-    "discover": "/assets/Discover 1.svg",
-    "zoomCall": "/assets/Frame919.jpg",
-    "path": "/assets/set-your-path-group.png",
-    "learningGrid": "/assets/learning-grid.png"
+    "astronaut": "/../public/media/astronaut.png",
+    "discover": "/../media/Discover 1.svg",
+    "zoomCall": "/../public/media/zoom-call.png",
+    "path": "/../public/media/set-your-path-group.png",
+    "learningGrid": "/../public/media/learning-grid.png"
   }
 }

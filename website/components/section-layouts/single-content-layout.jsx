@@ -1,22 +1,20 @@
 import React from "react";
 import Image from 'next/image';
-// import styles from './layout.module.scss';
+import styles from './layout.module.scss';
 
-export default function SingleContentLayout({ title, subtitle, img, width, height }) {
+export default function SingleContentLayout({ title, subtitle, children }) {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.main}>
         <h1>{title}</h1>
      
-      <p className={styles.grid}>{subtitle}</p>
-      {/* JS for if img is passed */}
-      <Image
-        src={img}
-        width={800}
-        height={400}
-        alt={title}
-      />
+      <p className={styles.subtitle}>{subtitle}</p>
+      {children}
       </div>
     </>
   )
 }
+
+
+// FIX RENDERING ISSUE IN SECTIONS LAYOUT AS THEY'RE IMPORTED 
+// DOUBLE CHECK STYLYING 

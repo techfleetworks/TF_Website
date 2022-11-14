@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './layout.module.scss';
 
-export default function DoubleContentLayout({ item1, item2, title, subtitle, itemWidth, itemHeight }) {
+export default function DoubleContentLayout({ item1, item2, title, subtitle, item2Width, item2Height, children }) {
   return (
     <>
     <div className={styles.main}>
@@ -17,12 +17,12 @@ export default function DoubleContentLayout({ item1, item2, title, subtitle, ite
       />
       <Image
         src={item2}
-        width={itemWidth}
-        height={itemHeight}
+        width={item2Width}
+        height={item2Height}
         alt={title}
       />
+      {children}
       </div>
-      
       </div>
     </>
   )

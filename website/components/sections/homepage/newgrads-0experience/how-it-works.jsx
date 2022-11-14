@@ -24,8 +24,8 @@ export default function HowItWorks() {
         subtitle={PublicVariables.sectionSubtitles.subtitle2}
         item1={PublicVariables.sectionImages.discover}
         item2={PublicVariables.sectionImages.zoomCall}
-        itemWidth={400}
-        itemHeight={300}></DoubleContentLayout>
+        item2Width={400}
+        item2Height={300}></DoubleContentLayout>
     </>
   )
 }

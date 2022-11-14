@@ -13,8 +13,8 @@ export default function ChooseYourPath() {
             </SectionLayout>
             <SectionLayout
                 title={PublicVariables.sectionTitles.title4}>
-                <Image src={PublicVariables.sectionImages.learningGrid} height={400} width={800} />
-                </SectionLayout>
+                <Image src={PublicVariables.sectionImages.learningGrid} height={400} width={600} />
+            </SectionLayout>
         </>
     )
 }

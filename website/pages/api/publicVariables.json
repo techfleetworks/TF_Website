@@ -30,6 +30,8 @@
     "discover": "/../media/Discover 1.svg",
     "zoomCall": "/../public/media/zoom-call.png",
     "path": "/../public/media/set-your-path-group.png",
-    "learningGrid": "/../public/media/learning-grid.png"
+    "learningGrid": "/../public/media/learning-grid.png",
+    "weCanHelp":"/../public/media/we-can-help.png",
+    "eclipseGroup":"/../public/media/eclipse-group.png"
   }
 }

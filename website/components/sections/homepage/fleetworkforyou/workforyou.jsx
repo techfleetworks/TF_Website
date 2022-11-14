@@ -6,7 +6,7 @@ export default function WorkForYou() {
   return (
     <>
       <DoubleContentLayout
-        title={PublicVariables.sectionTitles.title5}
+        title={PublicVariables.sectionTitles.title6}
         item1={PublicVariables.sectionImages.eclipseGroup}
         //Item 2 image is a placeholder for now
         item2={PublicVariables.sectionImages.weCanHelp}

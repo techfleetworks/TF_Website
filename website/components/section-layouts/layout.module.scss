@@ -1,6 +1,7 @@
 $color-white: #fff;
 $title-size: 4rem;
 $subtitle-size: 1rem;
+$font-size-sm: 1.25rem;
 
 .container {
   padding: 0 2rem;
@@ -29,16 +30,20 @@ $subtitle-size: 1rem;
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 1rem;
+  gap: 4rem;
   width: 100%;
 }
 
 @media (min-width: 280px) and (max-width: 480px){
-    .grid{
+    .grid {
         display: grid;
         grid-template-columns: 1fr;
         margin-bottom: 1em;
         width: 100%;
     }
 
+    .subtitle {
+      font-size: $font-size-sm;
+      padding: 0;
+    }
 }

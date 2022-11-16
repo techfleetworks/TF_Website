@@ -28,10 +28,10 @@
   "sectionImages": {
     "astronaut": "/../public/media/astronaut.png",
     "discover": "/../media/Discover 1.svg",
-    "zoomCall": "/../public/media/zoom-call.png",
-    "path": "/../public/media/set-your-path-group.png",
-    "learningGrid": "/../public/media/learning-grid.png",
-    "weCanHelp":"/../public/media/we-can-help.png",
-    "eclipseGroup":"/../public/media/eclipse-group.png"
+    "zoomCall": "/../media/zoom-call.png",
+    "path": "/../media/set-your-path-group.png",
+    "learningGrid": "/../media/learning-grid.png",
+    "weCanHelp":"/../media/we-can-help.png",
+    "eclipseGroup":"/../media/eclipse-group.png"
   }
 }

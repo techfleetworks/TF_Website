@@ -19,5 +19,9 @@
   "devDependencies": {
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
+  },
+  "engines": {
+    "npm": ">=8.0.0 ",
+    "yarn": "please-use-NPM"
   }
 }

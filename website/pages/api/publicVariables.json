@@ -26,12 +26,12 @@
     "subtitle14": "Tech Fleet Community DAO is an open source community on a mission to build a global Tech talent pipeline in Web2 and Web3. Tech Fleet is incorporated as a DAO LLC in Wyoming, USA and serves the world."
   },
   "sectionImages": {
-    "astronaut": "/../public/media/astronaut.png",
-    "discover": "/../media/Discover 1.svg",
-    "zoomCall": "/../media/zoom-call.png",
-    "path": "/../media/set-your-path-group.png",
-    "learningGrid": "/../media/learning-grid.png",
-    "weCanHelp":"/../media/we-can-help.png",
-    "eclipseGroup":"/../media/eclipse-group.png"
+    "astronaut": "/media/astronaut.png",
+    "discover": "/media/Discover 1.svg",
+    "zoomCall": "/media/zoom-call.png",
+    "path": "/media/set-your-path-group.png",
+    "learningGrid": "/media/learning-grid.png",
+    "weCanHelp":"/media/we-can-help.png",
+    "eclipseGroup":"/media/eclipse-group.png"
   }
 }
